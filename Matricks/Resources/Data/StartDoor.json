@@ -1,0 +1,25 @@
+{
+  "Type": "StartDoor",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "door",
+      "Shape": 0
+    },
+    {
+      "Type": "Body",
+      "Vel": [ 0.0, 0.0 ],
+      "Accel": [ 0.0, 0.0 ],
+      "Mass": 0.0,
+      "AABB": [ 1, 1 ],
+      "Bounce": 0.1,
+      "Friction": [ 0.0, 0.0 ]
+    }
+  ]
+}

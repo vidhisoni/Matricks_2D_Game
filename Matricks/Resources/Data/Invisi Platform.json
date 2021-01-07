@@ -1,0 +1,16 @@
+{
+  "Type": "InvisiPlatform",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "invisibleplatform",
+      "Shape": 0
+    }
+  ]
+}

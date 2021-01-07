@@ -1,0 +1,354 @@
+{
+  "Objects": [
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 1180.0, 880.0, 0.0 ],
+        "Scale": [ 100.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "BACK",
+        "Offset": [ -0.45, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 810.0, 690.0, 0.0 ],
+        "Scale": [ 250.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Small Window",
+        "Scale": 0.75,
+        "Offset": [ -0.32, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover1.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      },
+      "Button": {
+        "type1": true
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 1110.0, 690.0, 0.0 ],
+        "Scale": [ 250.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Medium Window",
+        "Scale": 0.75,
+        "Offset": [ -0.38, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover2.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      },
+      "Button": {
+        "type2": true
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 970.0, 610.0, 0.0 ],
+        "Scale": [ 250.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Fullscreen",
+        "Scale": 0.75,
+        "Offset": [ -0.25, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover3.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      },
+      "Button": {
+        "type3": true
+      }
+    },
+    {
+      "File": "mute.json",
+      "Transform": {
+        "Pos": [ 1180.0, 390.0, 0.0 ],
+        "Scale": [ 200.0, 200.0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      },
+      "Button": {
+        "MuteButtonBGM": true,
+        "bgm": true
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 740.0, 315.0, 0.0 ],
+        "Scale": [ 90.0, 60.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "-",
+        "Offset": [ -0.1, -0.2 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover2.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      },
+      "Button": {
+        "bgm": true
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 1040.0, 315.0, 0.0 ],
+        "Scale": [ 90.0, 60.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "+",
+        "Offset": [ -0.1, -0.2 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover3.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      },
+      "Button": {
+        "bgm": true
+      }
+    },
+    {
+      "File": "value.json",
+      "Transform": {
+        "Pos": [ 890.0, 315.0, 0.0 ],
+        "Scale": [ 90.0, 60.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "HACK",
+        "Offset": [ -0.1, -0.2 ],
+        "Color": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "File": "mute.json",
+      "Transform": {
+        "Pos": [ 1180.0, 185.0, 0.0 ],
+        "Scale": [ 200.0, 200.0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      },
+      "Button": {
+        "MuteButtonSFX": true
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 740.0, 110.0, 0.0 ],
+        "Scale": [ 90.0, 60.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "-",
+        "Offset": [ -0.1, -0.2 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover1.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 1040.0, 110.0, 0.0 ],
+        "Scale": [ 90.0, 60.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "+",
+        "Offset": [ -0.1, -0.2 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover2.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "value.json",
+      "Transform": {
+        "Pos": [ 890.0, 110.0, 0.0 ],
+        "Scale": [ 90.0, 60.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "HACK1",
+        "Offset": [ -0.1, -0.2 ],
+        "Color": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "File": "background.json",
+      "Transform": {
+        "Pos": [ 960.0, 540.0, 0.1 ],
+        "Scale": [ 700.0, 1100.0 ]
+      },
+      "Sprite": {
+        "Texture": "pausebg1",
+        "HUD": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "Camera": {
+    "StartPos": [
+      -353.0,
+      90.0
+    ]
+  },
+  "Objects": [
+    {
+      "File": "player.json",
+      "Children": [
+        {
+          "Index": 1,
+          "Prompt": {
+            "Messages": [
+              {
+                "CollideWith": "StartDoor",
+                "Message": "Hi.. This is BeeBee! I will guide you through the mission.."
+              },
+              {
+                "EventType": "PromptTrigger",
+                "CollideWith": "FinalDoor",
+                "Message": "This is your level goal... Pass through the door for the next level!"
+              }
+            ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [
+          680.0,
+          359.99,
+          0.2
+        ],
+        "Scale": [
+          200,
+          200
+        ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "playeridleright",
+        "Shape": 0
+      },
+      "PlayerState": {
+        "Tools": [
+          false,
+          false
+        ]
+      },
+      "Body": {
+        "Jumps": 0
+      }
+    },
+    {
+      "File": "parallaxbg.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [
+              960,
+              550,
+              0.9
+            ],
+            "Scale": [
+              2000,
+              1200
+            ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "sky",
+            "Shape": 0
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [
+              1050,
+              600,
+              0.7
+            ],
+            "Scale": [
+              2000,
+              550
+            ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "planets",
+            "Shape": 0,
+            "Bloom": true
+          }
+        },
+        {
+          "Index": 2,
+          "Transform": {
+            "Pos": [
+              1050,
+              600,
+              0.8
+            ],
+            "Scale": [
+              2000,
+              670
+            ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "stars",
+            "Shape": 0,
+            "Bloom": true
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [
+          960,
+          450,
+          0.9
+        ],
+        "Scale": [
+          1920,
+          1080
+        ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "StartDoor.json",
+      "Transform": {
+        "Pos": [
+          500,
+          425,
+          0.4
+        ],
+        "Scale": [
+          150,
+          300
+        ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "FinalDoor.json",
+      "Transform": {
+        "Pos": [
+          2125,
+          425,
+          0.4
+        ],
+        "Scale": [
+          150,
+          300
+        ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "finaldoor",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": ""
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          500,
+          412,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          2125,
+          412,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [
+          1320,
+          250,
+          0.3
+        ],
+        "Scale": [
+          1860,
+          50
+        ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [
+          4,
+          1
+        ]
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          690,
+          470,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          1940,
+          470,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "PromptTrigger.json",
+      "Transform": {
+        "Pos": [
+          725,
+          425,
+          0.4
+        ],
+        "Scale": [
+          150,
+          300
+        ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_BeeBee_L1-1.wav",
+            "Volume": 2,
+            "IsLoop": false
+          }
+        ],
+        "IsMute": false,
+        "BGM": false,
+        "isSFX": false,
+        "isPromptAudio": true
+      },
+      "Trigger": {
+        "ID": 1,
+        "Parent": "StartDoor"
+      }
+    },
+    {
+      "File": "PromptTrigger.json",
+      "Transform": {
+        "Pos": [
+          1900,
+          425,
+          0.4
+        ],
+        "Scale": [
+          150,
+          300
+        ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_BeeBee_L1-2.wav",
+            "Volume": 2,
+            "IsLoop": false,
+            "IsPrior": true
+          }
+        ],
+        "IsMute": false,
+        "BGM": false,
+        "isSFX": false,
+        "isPromptAudio": true
+      },
+      "Trigger": {
+        "ID": 1,
+        "Parent": "FinalDoor"
+      }
+    }
+  ]
+}

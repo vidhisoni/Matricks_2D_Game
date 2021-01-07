@@ -1,0 +1,34 @@
+{
+  "Camera":{
+    "Light": 1.0
+  },
+  "Objects": [
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 540.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite":{
+        "Texture":"story7"
+      },
+      "Story": {
+        "LastFrame": true,
+        "Frame": 0,
+        "isSound": true
+      },
+  "Audio": {
+    "AudioClip": [
+      {
+        "Clip": "SFX_SelectBlessingNEW.wav",
+        "Volume": 1,
+        "IsLoop": false
+      }
+    ],
+    "IsMute": false,
+    "BGM": false,
+    "isSFX": true
+  }
+    }
+  ]
+}

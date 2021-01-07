@@ -1,0 +1,35 @@
+{
+  "Type": "Trap",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "sponge",
+      "Shape": 0
+    },
+    {
+      "Type": "Body",
+      "Vel": [ 0.0, 0.0 ],
+      "Accel": [ 0.0, 0.0 ],
+      "Mass": 0.0,
+      "CIRCLE": 1.0,
+      "Bounce": 2.5
+    },
+    {
+      "Type": "Script",
+      "scriptName": "trapUp.lua"
+    },
+    {
+      "Type": "Light",
+      "Offset": [ 0.0, 0.20 ],
+      "Angle": 0.0,
+      "Spread": 360.0,
+      "Distance": 1.0
+    }
+  ]
+}

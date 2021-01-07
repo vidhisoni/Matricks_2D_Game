@@ -1,0 +1,44 @@
+{
+    "Camera":{
+      "Light": 1.0
+    },
+  "Objects": [
+    {
+      "File": "levellist.json",
+      "Transform": {
+        "Pos": [ 960.0, 540.0, 0.9 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 1190.0, 835.0, 0.0 ],
+        "Scale": [ 100.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "BACK",
+        "Offset": [ -0.45, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+
+  "Camera": {
+    "Offset": [ 800, 450 ],
+    "StartPos": [ -1800, -1900 ],
+    "Speed": [ 2.5, 1.0 ]
+  },
+  "Objects": [
+    {
+      "File": "player.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Scale": [ 200, 200 ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 410, 259.99, 0.2 ],
+        "Scale": [ 200, 200 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "playeridleright",
+        "Shape": 0
+      },
+      "PlayerState": { "Tools": [ true, false ] },
+      "Body": { "Jumps": 2 }
+    },
+    {
+      "File": "parallaxbg.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 200, 50, 0.9 ],
+            "Scale": [ 2000, 1200 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "sky",
+            "Shape": 0
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [ 1500, 1000, 0.7 ],
+            "Scale": [ 6000, 1650 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "planets",
+            "Shape": 0,
+            "Tiling": [ 3, 3 ],
+            "Bloom": true
+          }
+        },
+        {
+          "Index": 2,
+          "Transform": {
+            "Pos": [ 1500, 900, 0.8 ],
+            "Scale": [ 4000, 1340 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "stars",
+            "Shape": 0,
+            "Tiling": [ 2, 2 ],
+            "Bloom": true
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 960, 450, 0 ],
+        "Scale": [ 1920, 1080 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2500, 150, 0.3 ],
+        "Scale": [ 4900, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [ 7, 1 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1170, 690, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1930, 450, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1815, 985, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2320, 1235, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2895, 1075, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 3630, 1325, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2880, 1630, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2160, 1845, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+
+    {
+      "File": "StartDoor.json",
+      "Transform": {
+        "Pos": [ 185, 320, 0.4 ],
+        "Scale": [ 150, 300 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "FinalDoor.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 200, 150, 0.1 ],
+            "Scale": [ 100, 150 ]
+          },
+          "Text": {
+            "Value": "13"
+          }
+
+        }
+      ],
+      "Transform": {
+        "Pos": [ 1920, 2020, 0.4 ],
+        "Scale": [ 150, 300 ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "13"
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          185,
+          307,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          1920,
+          2007,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 330, 375, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 1150, 375, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 1920, 675, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 980, 915, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 2215, 1460, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 2990, 1300, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 3880, 1550, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": false
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 2110, 2070, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 2675, 375, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 3495, 375, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 4315, 375, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [ 4915, 375, 0.4 ],
+        "Scale": [ 90, 400 ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": false
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 2100, 509.99, 0.3 ],
+        "Scale": [ 75, 75 ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "3"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 3370, 209.99, 0.3 ],
+        "Scale": [ 75, 75 ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "5"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 2559, 212.99, 0.3 ],
+        "Scale": [ 75, 75 ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "2"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 1170, 700.99, 0.3 ],
+        "Scale": [ 75, 75 ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "2"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 1705, 1044.99, 0.3 ],
+        "Scale": [ 75, 75 ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "4"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [
+          3034,
+          1137.5,
+          0.3
+        ],
+        "Scale": [ 75, 75 ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "7"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 3414, 1434.99, 0.3 ],
+        "Scale": [ 75, 75 ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "1"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 2815, 1692.99, 0.3 ],
+        "Scale": [ 75, 75 ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "5"
+      }
+    },
+    {
+      "File": "OutOfBound.json",
+      "Transform": {
+        "Pos": [ 2390, -400, 0.4 ],
+        "Scale": [ 7000, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "Shape": 0,
+        "Tiling": [ 6, 1 ]
+      }
+    }
+  ]
+}

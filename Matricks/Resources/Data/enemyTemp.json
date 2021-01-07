@@ -1,0 +1,39 @@
+{
+  "Type": 12,
+  "Transform": {
+    "Pos": [ 0.0, 0.0 ],
+    "Scale": [ 1.0, 1.0 ],
+    "Angle": 0.0
+  },
+  "Sprite": {
+    "Texture": "system",
+    "Shape": 0
+  },
+  "Body": {
+    "Vel": [ 0.0, 0.0 ],
+    "Accel": [ 0.0, 0.0 ],
+    "Mass": 0.0,
+    "AABB": [ 6.0, 6.0 ],
+    "Friction": [ 0.0, 0.0 ],
+    "Collider": true
+  },
+  "Light": {
+    "Offset": [ 0.0, 0.0 ],
+    "Angle": 0.0,
+    "Spread": 50.0,
+    "Distance": 3
+  },
+  "Audio": {
+    "AudioClip": "Burglar.mp3",
+    "Volume": 1,
+    "IsMute": false,
+    "BGM": false,
+    "isSFX" :  true,
+    "IsLoop": false,
+    "PlayOnAwake": false
+  },
+  "Subscription": {
+    "SubscribeTo": [ 13 ]
+  },
+  "AlarmComponent": true
+}

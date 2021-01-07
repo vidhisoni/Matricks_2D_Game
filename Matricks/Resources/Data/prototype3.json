@@ -1,0 +1,171 @@
+{
+  "Camera" : {
+    "Bounds" : {
+      "Horizontal" : [-1000.0, -3930.0],
+      "Vertical" : [ 100.0, -300.0]
+	  },
+	  "Offset" : {
+      "X" : [860.0 , 1060.0],
+      "Y" : [350.0 , 650.0]
+	  },
+    "StartPos" : [-910.0,100.0],
+    "Speed" : [0.2,3.0]
+  },
+  "Objects": [
+    {
+      "File": "player1.json",
+      "Transform": {
+        "Pos": [ 1435.0, 237.0, 0.2 ],
+        "Scale": [ 150.0, 300.0 ],
+        "XBounds": [ 12.0, 25500.0 ],
+        "YBounds": [ -500.0, 14000.0 ]
+      }
+    },
+    {
+      "File": "player2.json",
+      "Transform": {
+        "Pos": [ 1235.0, 237.0, 0.2 ],
+        "Scale": [ 150.0, 150.0 ],
+        "XBounds": [ 12.0, 25500.0 ],
+        "YBounds": [ -500.0, 14000.0 ]
+      }
+    },
+    {
+      "File": "parallaxbg.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 1800.0, 500.0, 0.9 ],
+            "Scale": [ 2112.0, 1188.0 ]
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [ 1800.0, 500.0, 0.7 ],
+            "Scale": [ 5760.0, 1080.0 ]
+          }
+        },
+        {
+          "Index": 2,
+          "Transform": {
+            "Pos": [ 1800.0, 500.0, 0.8 ],
+            "Scale": [ 5760.0, 1080.0 ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 1800.0, 500.0, 0.9 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 1100.0, 230.0, 0.3 ],
+        "Scale": [ 100.0, 100.0 ],
+        "XBounds": [ 12.0, 15500.0 ],
+        "YBounds": [ 0.0, 1400.0 ]
+      }
+    },
+    {
+      "File": "IDoor.json",
+      "Children": [
+        {
+          "Type": 11,
+          "Transform": {
+            "Pos": [ 2200.0, 200.0, 0.3 ],
+            "Scale": [ 350.0, 100.0 ]
+          },
+          "Sprite": {
+            "Tiling": [ 1, 1 ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 2250.0, 710.0, 0.9 ],
+        "Scale": [ 100.0, 100.0 ],
+        "XBounds": [ 12.0, 15500.0 ],
+        "YBounds": [ 0.0, 1400.0 ]
+      }
+    },
+    {
+      "File": "UniDoor.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 3335.0, 680.0, 0.3 ],
+            "Scale": [ 100.0, 550.0 ]
+          },
+          "Sprite": {
+            "Tiling": [ 1, 1 ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 3495.0, 497.0, 0.9 ],
+        "Scale": [ 100.0, 100.0 ],
+        "XBounds": [ 12.0, 15500.0 ],
+        "YBounds": [ 0.0, 1400.0 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1000.0, 55.0, 0.3 ],
+        "Scale": [ 1400.0, 100.0 ]
+      },
+      "Sprite": {
+        "Tiling": [ 2, 1 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1995.0, 610.0, 0.3 ],
+        "Scale": [ 700.0, 100.0 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 3460.0, 125.0, 0.3 ],
+        "Scale": [ 1500.0, 100.0 ]
+      },
+      "Sprite": {
+        "Tiling": [ 2, 1 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 3430.0, 400.0, 0.3 ],
+        "Scale": [ 900.0, 100.0 ]
+      },
+      "Sprite": {
+        "Tiling": [ 2, 1 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 5130.0, 235.0, 0.3 ],
+        "Scale": [ 900.0, 100.0 ]
+      },
+      "Sprite": {
+        "Tiling": [ 2, 1 ]
+      }
+    },
+    {
+      "File": "FinalDoor.json",
+      "Transform": {
+        "Pos": [ 5240.0, 460.0, 0.9 ],
+        "Scale": [ 200.0, 350.0 ],
+        "XBounds": [ 12.0, 5500.0 ],
+        "YBounds": [ 0.0, 1400.0 ]
+      }
+    }
+  ]
+}

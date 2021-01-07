@@ -1,0 +1,42 @@
+{
+  "Type": 21,
+  "Transform": {
+    "Pos": [ 0.0, 0.0 ],
+    "Scale": [ 1.0, 1.0 ],
+    "Angle": 0.0
+  },
+  "Sprite": {
+    "Texture": "medpack",
+    "Shape": 0
+  },
+  "Body": {
+    "Vel": [ 0.0, 0.0 ],
+    "Accel": [ 0.0, 0.0 ],
+    "Mass": 6.0,
+    "AABB": [ 6.0, 1.0 ],
+    "Friction": [ 0.0, 0.0 ],
+    "Collider": true
+  },
+  "State": true,
+  "Animator": {
+    "SpriteSheet": [
+      {
+        "Type": "active",
+        "Sheet": "fire"
+      }
+    ]
+  },
+  "Text": {
+    "Value": "Enemy",
+    "Scale": 0.5,
+    "Color": [ 0.0, 1.0, 0.0 ],
+    "Offset": [ -0.3, 0.6 ]
+  },
+  "LinerAI": {
+    "MoveLeft": false,
+    "MoveRight": false
+  },
+  "Subscription": {
+    "SubscribeTo": [ 8,23 ]
+  }
+}

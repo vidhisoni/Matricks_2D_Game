@@ -1,0 +1,82 @@
+{
+  "Type": "Prompt",
+  "Children":[
+    {
+      "Type": "NoObject",
+      "Components": [
+        {
+          "Type": "Transform",
+          "Pos": [ 750.0, 100.0 ,0.2 ],
+          "Scale": [ 0.0, 0.0 ],
+          "Angle": 0.0
+        },
+        {
+          "Type": "Sprite",
+          "Texture": "transparent",
+          "Shape": 0,
+          "HUD":true,
+          "Bloom": true
+        },
+        {
+          "Type": "Text",
+          "Value": "",
+          "Scale": 1.0,
+          "Color": [ 1.0, 1.0, 1.0 ],
+          "Offset": [ 0,0 ]
+        }
+      ]
+    }
+  ],
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0, 0.2 ],
+      "Scale": [ 50.0, 50.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "State"
+    },
+    {
+      "Type": "Animator",
+      "SpriteSheet": [
+        {
+          "Type": "active",
+          "Sheet": "UFO"
+        }
+      ]
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "UFO",
+      "Shape": 0
+    },
+    {
+      "Type": "Subscription",
+      "SubscribeTo": ["OnGroundCollision","PromptTrigger" ]
+    },
+    {
+      "Type": "Prompt",
+      "Offset": [ -0.75, 0.1 ]
+    },
+    {
+      "Type": "Light",
+      "Angle": 0.0,
+      "Spread": 360.0,
+      "Distance": 1
+    },
+    {
+      "Type": "Audio",
+      "AudioClip": [
+        {
+          "Clip": "SFX_SelectBlessing.wav",
+          "Volume": 1,
+          "IsLoop": false
+        }
+      ],
+      "IsMute": false,
+      "BGM": false,
+      "isSFX": true
+    }
+  ]
+}

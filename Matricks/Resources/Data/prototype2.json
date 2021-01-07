@@ -1,0 +1,74 @@
+{
+  "Level": {
+    "XBounds": [ 10.0, 9100.0 ],
+    "YBounds": [ -200.0, 1500.0 ]
+  },
+  "Camera": {
+    "Bounds": {
+      "Horizontal": [ -1000.0, -3930.0 ],
+      "Vertical": [ 100.0, -300.0 ]
+    },
+    "Offset": {
+      "X": [ 860.0, 1060.0 ],
+      "Y": [ 250.0, 650.0 ]
+    },
+    "StartPos": [ -49.0, 100.0 ],
+    "Speed": [ 1.2, 3.0 ]
+  },
+  "Objects": [
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1000.0, 150.0, 0.3 ],
+        "Scale": [ 2000.0, 100.0 ]
+      },
+      "Sprite": {
+        "Tiling": [ 3, 1 ]
+      }
+    },
+    {
+      "File": "player.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 910.0, 510.0, 0.2 ],
+            "Scale": [ 300.0, 300.0 ]
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [ 300.0, 150.0, 0.1 ],
+            "Scale": [ 150.0, 150.0 ]
+          },
+          "Sprite": {
+            "Texture": "minus"
+          },
+          "Text": {
+            "Value": "5"
+          }
+        },
+        {
+          "Index": 2,
+          "Transform": {
+            "Pos": [ 150.0, 150.0, 0.1 ],
+            "Scale": [ 150.0, 150.0 ]
+          },
+          "Sprite": {
+            "Texture": "plus"
+          },
+          "Text": {
+            "Value": "5"
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 910.0, 270.0, 0.2 ],
+        "Scale": [ 300.0, 300.0 ],
+        "XBounds": [ 12.0, 25500.0 ],
+        "YBounds": [ -500.0, 14000.0 ]
+      }
+    }
+  ]
+}

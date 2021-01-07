@@ -1,0 +1,549 @@
+{
+  "Camera": {
+    "Offset": [800.0, 450.0 ],
+    "StartPos": [ 776.0, -1080.0 ],
+    "Speed": [ 2.5, 1.0 ]
+  },
+  "Objects": [
+    {
+      "File": "player.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Scale": [
+              200,
+              200
+            ]
+          }
+        },
+        {
+          "Index": 1,
+          "Prompt": {
+            "Messages": [
+              {
+                "CollideWith": "Numbox",
+                "Message": "Be carefull with the boxes you have!",
+                "DisplayTime": 300
+              },
+              {
+                "CollideWith": "Numbox",
+                "Message": "Pressing 'E' again resets the cloud value... Press 'A' to add",
+                "Type": "Add"
+              }
+            ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [
+          -555,
+          259.99,
+          0.2
+        ],
+        "Scale": [
+          200,
+          200
+        ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "playeridleright",
+        "Shape": 0
+      },
+      "PlayerState": {
+        "Tools": [
+          true,
+          false
+        ]
+      },
+      "Body": {
+        "Jumps": 2
+      }
+    },
+    {
+      "File": "parallaxbg.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [
+              200,
+              50,
+              0.9
+            ],
+            "Scale": [ 2000.0, 1200.0 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "sky",
+            "Shape": 0
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [
+              600,
+              600,
+              0.7
+            ],
+            "Scale": [
+              4000,
+              550
+            ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "planets",
+            "Shape": 0,
+            "Tiling": [
+              2,
+              1
+            ],
+            "Bloom": true
+          }
+        },
+        {
+          "Index": 2,
+          "Transform": {
+            "Pos": [
+              600,
+              600,
+              0.8
+            ],
+            "Scale": [
+              4000,
+              670
+            ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "stars",
+            "Shape": 0,
+            "Tiling": [
+              2,
+              1
+            ],
+            "Bloom": true
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [
+          960,
+          600,
+          0.9
+        ],
+        "Scale": [
+          1920,
+          1080
+        ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [
+          490,
+          150,
+          0.4
+        ],
+        "Scale": [
+          2800,
+          50
+        ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [
+          6,
+          1
+        ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [
+          45,
+          400,
+          0.4
+        ],
+        "Scale": [
+          700,
+          50
+        ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [
+          -250,
+          900,
+          0.4
+        ],
+        "Scale": [
+          700,
+          50
+        ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [
+          710,
+          650,
+          0.4
+        ],
+        "Scale": [
+          700,
+          50
+        ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "File": "StartDoor.json",
+      "Transform": {
+        "Pos": [
+          -745,
+          325,
+          0.4
+        ],
+        "Scale": [
+          150,
+          300
+        ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "FinalDoor.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [
+              200,
+              150,
+              0.1
+            ],
+            "Scale": [
+              100,
+              150
+            ]
+          },
+          "Text": {
+            "Value": "6"
+          }
+
+        }
+      ],
+      "Transform": {
+        "Pos": [
+          -480,
+          1075,
+          0.4
+        ],
+        "Scale": [
+          150,
+          300
+        ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "6"
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          -745,
+          312,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          -480,
+          1062,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          -550,
+          375,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          760,
+          375,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          -280,
+          1120,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          1800,
+          375,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          1015,
+          720,
+          0.4
+        ]
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          -260,
+          470,
+          0.4
+        ]
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [
+          598.354,
+          212.49,
+          0.3
+        ],
+        "Scale": [
+          75,
+          75
+        ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "2"
+      }
+    },
+    {
+      "File": "PromptTrigger.json",
+      "Transform": {
+        "Pos": [
+          598.354,
+          212.49,
+          0.3
+        ],
+        "Scale": [
+          75,
+          75
+        ]
+      },
+      "Body": {
+        "AABB": [ 1.5, 1 ]
+      },
+      "Trigger": {
+        "ID": 1,
+        "Parent": "Numbox"
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_BeeBee_L6-1.wav",
+            "Volume": 2,
+            "IsLoop": false
+          }
+        ],
+        "IsMute": false,
+        "BGM": false,
+        "isSFX": false,
+        "isPromptAudio": true
+      }
+    },
+    {
+      "File": "PromptTrigger.json",
+      "Transform": {
+        "Pos": [
+          107.056,
+          462.49,
+          0.3
+        ],
+        "Scale": [
+          75,
+          75
+        ]
+      },
+      "Body": {
+        "AABB": [ 1.5, 1 ]
+      },
+      "Trigger": {
+        "ID": 2,
+        "Parent": "Numbox"
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_BeeBee_L6-2.wav",
+            "Volume": 2,
+            "IsLoop": false
+          }
+        ],
+        "IsMute": false,
+        "BGM": false,
+        "isSFX": false,
+        "isPromptAudio": true
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [
+          466.766,
+          712.49,
+          0.3
+        ],
+        "Scale": [
+          75,
+          75
+        ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "2"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [
+          107.056,
+          462.49,
+          0.3
+        ],
+        "Scale": [
+          75,
+          75
+        ],
+        "Angle": 0
+      },
+      "Text": {
+        "Value": "2"
+      }
+    },
+    {
+      "File": "OutOfBound.json",
+      "Transform": {
+        "Pos": [ 495, -400, 0.4 ],
+        "Scale": [ 5600, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "Shape": 0,
+        "Tiling": [ 6, 1 ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "Camera":{
+    "Light": 1.0
+  },
+  "Objects": [
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 540.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite": {
+        "Texture": "credit1"
+      },
+      "Story": {
+        "Frame": 0,
+        "Time": 4.0,
+        "isSound": true
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "BGM_Credits Steel Swing.wma",
+            "Volume": 0.005,
+            "IsLoop": false
+          }
+        ],
+        "IsMute": false,
+        "BGM": true,
+        "isSFX": false
+      }
+    },
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 1620.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite": {
+        "Texture": "credit2"
+      },
+      "Story": {
+        "Frame": 1,
+        "Time": 4.0,
+        "isSound": true
+      }
+    },
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 1620.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite": {
+        "Texture": "credit3"
+      },
+      "Story": {
+        "Frame": 2,
+        "Time": 4.0,
+        "isSound": true
+      }
+    },
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 1620.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite": {
+        "Texture": "credit4"
+      },
+      "Story": {
+        "Frame": 3,
+        "Time": 4.0,
+        "isSound": true
+      }
+    },
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 1620.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite": {
+        "Texture": "credit5"
+      },
+      "Story": {
+        "Frame": 4,
+        "Time": 4.0,
+        "isSound": true
+      }
+    },
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 1620.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite": {
+        "Texture": "credit6"
+      },
+      "Story": {
+        "Frame": 5,
+        "Time": 4.0,
+        "isSound": true
+      }
+    },
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 1620.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite": {
+        "Texture": "credit7"
+      },
+      "Story": {
+        "LastFrame": true,
+        "Frame": 6,
+        "Time": 4.0,
+        "isSound": true
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 1600.0, 40.0, 0.0 ],
+        "Scale": [ 100.0, 5.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Press Space to SKIP",
+        "Offset": [ -0.45, -0.25 ],
+        "Color": [ 1, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    }
+  ]
+}

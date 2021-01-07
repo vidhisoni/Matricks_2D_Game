@@ -1,0 +1,1 @@
+luaObject:setUpDown(true);

@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{07A1F634-5198-453D-A800-2E2191DE2B52}</ProjectGuid>
+    <RootNamespace>Matricks</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Matricks\Dependencies;$(SolutionDir)Matricks\Dependencies\GLEW\include;$(SolutionDir)Matricks\Dependencies\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRTDBG_MAP_ALLOC;DEBUG;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Matricks\Dependencies\Lua\5.1\include;$(SolutionDir)Matricks\Dependencies\LuaBridge-master\Source;$(SolutionDir)Matricks\Dependencies\LuaBridge-master\Source\LuaBridge;$(SolutionDir)Matricks\Dependencies\LuaBridge-master\Source\LuaBridge\detail;$(SolutionDir)Matricks\Dependencies;$(SolutionDir)Matricks\Dependencies\GLEW\include;$(SolutionDir)Matricks\Dependencies\SDL\include;$(SolutionDir)Matricks\Dependencies\freetype\include;$(SolutionDir)Matricks\Dependencies\FMOD\api\lowlevel\inc;$(SolutionDir)Matricks\Dependencies\FMOD\api\studio\inc;$(SolutionDir)Matricks\Dependencies\OpenGL</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Matricks\Dependencies\Lua\5.1\lib;$(SolutionDir)Matricks\Dependencies\SDL\lib\x86;$(SolutionDir)Matricks\Dependencies\GLEW\lib\Release\Win32;$(SolutionDir)Matricks\Dependencies\freetype\lib\x86;$(SolutionDir)Matricks\Dependencies\FMOD\api\lowlevel\lib;$(SolutionDir)Matricks\Dependencies\FMOD\api\studio\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;lua5.1.lib;SDL2.lib;opengl32.lib;freetype.lib;fmodL_vc.lib;fmodstudioL_vc.lib;fmod_vc.lib;fmodstudio_vc.lib;comsuppw.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>
+      </SubSystem>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy  "$(SolutionDir)Matricks\Dependencies\DLLs\*"  "$(SolutionDir)$(Configuration)\"  /E /Y  </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Matricks\Dependencies\Lua\5.1\include;$(SolutionDir)Matricks\Dependencies\LuaBridge-master\Source;$(SolutionDir)Matricks\Dependencies\LuaBridge-master\Source\LuaBridge;$(SolutionDir)Matricks\Dependencies\LuaBridge-master\Source\LuaBridge\detail;$(SolutionDir)Matricks\Dependencies;$(SolutionDir)Matricks\Dependencies\GLEW\include;$(SolutionDir)Matricks\Dependencies\SDL\include;$(SolutionDir)Matricks\Dependencies\freetype\include;$(SolutionDir)Matricks\Dependencies\FMOD\api\lowlevel\inc;$(SolutionDir)Matricks\Dependencies\FMOD\api\studio\inc;$(SolutionDir)Matricks\Dependencies\OpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RELEASE;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Matricks\Dependencies\Lua\5.1\lib;$(SolutionDir)Matricks\Dependencies\SDL\lib\x86;$(SolutionDir)Matricks\Dependencies\GLEW\lib\Release\Win32;$(SolutionDir)Matricks\Dependencies\freetype\lib\x86;$(SolutionDir)Matricks\Dependencies\FMOD\api\lowlevel\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;lua5.1.lib;SDL2.lib;opengl32.lib;freetype.lib;fmod_vc.lib;comsuppw.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy  "$(SolutionDir)Matricks\Dependencies\DLLs\*"  "$(SolutionDir)$(Configuration)\"  /E /Y  </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Dependencies\Imgui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_impl_opengl3.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_impl_sdl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\FrameBuffer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\Indexbuffer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\Renderer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\Shader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\Texture.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\VertexArray.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\VertexBuffer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\stbi_image\stbi_image.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\AI_Enemy.cpp" />
+    <ClCompile Include="Source\AlarmComponent.cpp" />
+    <ClCompile Include="Source\Animator.cpp" />
+    <ClCompile Include="Source\Application.cpp" />
+    <ClCompile Include="Source\Audio.cpp" />
+    <ClCompile Include="Source\AudioManager.cpp" />
+    <ClCompile Include="Source\Body.cpp" />
+    <ClCompile Include="Source\Button.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\Collider.cpp" />
+    <ClCompile Include="Source\CollisionManager.cpp" />
+    <ClCompile Include="Source\Component.cpp" />
+    <ClCompile Include="Source\Controller.cpp" />
+    <ClCompile Include="Source\Cloud.cpp" />
+    <ClCompile Include="Source\DynamicAABBTree.cpp" />
+    <ClCompile Include="Source\Engine.cpp" />
+    <ClCompile Include="Source\EventManager.cpp" />
+    <ClCompile Include="Source\FrameRateController.cpp" />
+    <ClCompile Include="Source\GameObject.cpp" />
+    <ClCompile Include="Source\GameObjectFactory.cpp" />
+    <ClCompile Include="Source\GameObjectManager.cpp" />
+    <ClCompile Include="Source\GameStateManager.cpp" />
+    <ClCompile Include="Source\InputManager.cpp" />
+    <ClCompile Include="Source\key.cpp" />
+    <ClCompile Include="Source\Levels.cpp" />
+    <ClCompile Include="Source\Light.cpp" />
+    <ClCompile Include="Source\LinerAI.cpp" />
+    <ClCompile Include="Source\MemoryManager.cpp" />
+    <ClCompile Include="Source\MenuControl.cpp" />
+    <ClCompile Include="Source\ParticleEmitter.cpp" />
+    <ClCompile Include="Source\ParticleSystem.cpp" />
+    <ClCompile Include="Source\NSquared.cpp" />
+    <ClCompile Include="Source\Prompt.cpp" />
+    <ClCompile Include="Source\Prompt_Trigger.cpp" />
+    <ClCompile Include="Source\Story.cpp" />
+    <ClCompile Include="Source\TestAI.cpp" />
+    <ClCompile Include="Source\Text.cpp" />
+    <ClCompile Include="Source\ParallaxBg.cpp" />
+    <ClCompile Include="Source\PhysicsManager.cpp" />
+    <ClCompile Include="Source\PlayerState.cpp" />
+    <ClCompile Include="Source\RenderManager.cpp" />
+    <ClCompile Include="Source\ResourceManager.cpp" />
+    <ClCompile Include="Source\Script.cpp" />
+    <ClCompile Include="Source\ScriptHandler.cpp" />
+    <ClCompile Include="Source\Sprite.cpp" />
+    <ClCompile Include="Source\State.cpp" />
+    <ClCompile Include="Source\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Subscriber.cpp" />
+    <ClCompile Include="Source\TextRenderer.cpp" />
+    <ClCompile Include="Source\Transform.cpp" />
+    <ClCompile Include="Source\TriggerComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dependencies\GLEW\include\GL\eglew.h" />
+    <ClInclude Include="Dependencies\GLEW\include\GL\glew.h" />
+    <ClInclude Include="Dependencies\GLEW\include\GL\glxew.h" />
+    <ClInclude Include="Dependencies\GLEW\include\GL\wglew.h" />
+    <ClInclude Include="Dependencies\Imgui\imconfig.h" />
+    <ClInclude Include="Dependencies\Imgui\imgui.h" />
+    <ClInclude Include="Dependencies\Imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="Dependencies\Imgui\imgui_impl_sdl.h" />
+    <ClInclude Include="Dependencies\Imgui\imgui_internal.h" />
+    <ClInclude Include="Dependencies\Imgui\imstb_rectpack.h" />
+    <ClInclude Include="Dependencies\Imgui\imstb_textedit.h" />
+    <ClInclude Include="Dependencies\Imgui\imstb_truetype.h" />
+    <ClInclude Include="Dependencies\OpenGL\FrameBuffer.h" />
+    <ClInclude Include="Dependencies\OpenGL\IndexBuffer.h" />
+    <ClInclude Include="Dependencies\OpenGL\Renderer.h" />
+    <ClInclude Include="Dependencies\OpenGL\Shader.h" />
+    <ClInclude Include="Dependencies\OpenGL\Texture.h" />
+    <ClInclude Include="Dependencies\OpenGL\VertexArray.h" />
+    <ClInclude Include="Dependencies\OpenGL\VertexBuffer.h" />
+    <ClInclude Include="Dependencies\rapidjson\allocators.h" />
+    <ClInclude Include="Dependencies\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="Dependencies\rapidjson\document.h" />
+    <ClInclude Include="Dependencies\rapidjson\encodedstream.h" />
+    <ClInclude Include="Dependencies\rapidjson\encodings.h" />
+    <ClInclude Include="Dependencies\rapidjson\error\en.h" />
+    <ClInclude Include="Dependencies\rapidjson\error\error.h" />
+    <ClInclude Include="Dependencies\rapidjson\filereadstream.h" />
+    <ClInclude Include="Dependencies\rapidjson\filewritestream.h" />
+    <ClInclude Include="Dependencies\rapidjson\fwd.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\itoa.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\meta.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\pow10.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\regex.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\stack.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\strtod.h" />
+    <ClInclude Include="Dependencies\rapidjson\internal\swap.h" />
+    <ClInclude Include="Dependencies\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="Dependencies\rapidjson\memorybuffer.h" />
+    <ClInclude Include="Dependencies\rapidjson\memorystream.h" />
+    <ClInclude Include="Dependencies\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="Dependencies\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="Dependencies\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="Dependencies\rapidjson\pointer.h" />
+    <ClInclude Include="Dependencies\rapidjson\prettywriter.h" />
+    <ClInclude Include="Dependencies\rapidjson\rapidjson.h" />
+    <ClInclude Include="Dependencies\rapidjson\reader.h" />
+    <ClInclude Include="Dependencies\rapidjson\schema.h" />
+    <ClInclude Include="Dependencies\rapidjson\stream.h" />
+    <ClInclude Include="Dependencies\rapidjson\stringbuffer.h" />
+    <ClInclude Include="Dependencies\rapidjson\writer.h" />
+    <ClInclude Include="Dependencies\SDL\include\begin_code.h" />
+    <ClInclude Include="Dependencies\SDL\include\close_code.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_assert.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_atomic.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_audio.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_bits.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_blendmode.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_clipboard.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_config.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_cpuinfo.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_endian.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_error.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_events.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_filesystem.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_gamecontroller.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_gesture.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_haptic.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_hints.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_joystick.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_keyboard.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_keycode.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_loadso.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_log.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_main.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_messagebox.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_mouse.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_mutex.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_name.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_opengl.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_opengles.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_opengles2.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_pixels.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_platform.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_power.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_quit.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_rect.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_render.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_revision.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_rwops.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_scancode.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_shape.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_stdinc.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_surface.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_system.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_syswm.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_assert.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_common.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_compare.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_crc32.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_font.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_fuzzer.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_harness.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_images.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_log.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_md5.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_random.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_thread.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_timer.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_touch.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_types.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_version.h" />
+    <ClInclude Include="Dependencies\SDL\include\SDL_video.h" />
+    <ClInclude Include="Dependencies\stbi_image\stbi_image.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\AI_Enemy.h" />
+    <ClInclude Include="Source\AlarmComponent.h" />
+    <ClInclude Include="Source\Animator.h" />
+    <ClInclude Include="Source\Audio.h" />
+    <ClInclude Include="Source\AudioManager.h" />
+    <ClInclude Include="Source\Body.h" />
+    <ClInclude Include="Source\BroadPhase.h" />
+    <ClInclude Include="Source\Button.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\Cloud.h" />
+    <ClInclude Include="Source\Collider.h" />
+    <ClInclude Include="Source\CollisionManager.h" />
+    <ClInclude Include="Source\Component.h" />
+    <ClInclude Include="Source\Controller.h" />
+    <ClInclude Include="Source\DynamicAABBTree.h" />
+    <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\EventManager.h" />
+    <ClInclude Include="Source\FrameRateController.h" />
+    <ClInclude Include="Source\GameObject.h" />
+    <ClInclude Include="Source\GameObjectFactory.h" />
+    <ClInclude Include="Source\GameObjectManager.h" />
+    <ClInclude Include="Source\GameStateManager.h" />
+    <ClInclude Include="Source\InputManager.h" />
+    <ClInclude Include="Source\key.h" />
+    <ClInclude Include="Source\Levels.h" />
+    <ClInclude Include="Source\Light.h" />
+    <ClInclude Include="Source\LinerAI.h" />
+    <ClInclude Include="Source\Log.h" />
+    <ClInclude Include="Source\MemoryManager.h" />
+    <ClInclude Include="Source\MenuControl.h" />
+    <ClInclude Include="Source\ParticleEmitter.h" />
+    <ClInclude Include="Source\ParticleSystem.h" />
+    <ClInclude Include="Source\NSquared.h" />
+    <ClInclude Include="Source\Prompt.h" />
+    <ClInclude Include="Source\Prompt_Trigger.h" />
+    <ClInclude Include="Source\Story.h" />
+    <ClInclude Include="Source\TestAI.h" />
+    <ClInclude Include="Source\Text.h" />
+    <ClInclude Include="Source\ParallaxBg.h" />
+    <ClInclude Include="Source\PhysicsManager.h" />
+    <ClInclude Include="Source\PlayerState.h" />
+    <ClInclude Include="Source\RenderManager.h" />
+    <ClInclude Include="Source\ResourceManager.h" />
+    <ClInclude Include="Source\Script.h" />
+    <ClInclude Include="Source\ScriptHandler.h" />
+    <ClInclude Include="Source\Sprite.h" />
+    <ClInclude Include="Source\State.h" />
+    <ClInclude Include="Source\stdafx.h" />
+    <ClInclude Include="Source\Subscriber.h" />
+    <ClInclude Include="Source\TextRenderer.h" />
+    <ClInclude Include="Source\Transform.h" />
+    <ClInclude Include="Source\TriggerComponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scripts\abc.lua" />
+    <None Include="Resources\Scripts\coin.lua" />
+    <None Include="Resources\Scripts\lift.lua" />
+    <None Include="Resources\Scripts\linerAI.lua" />
+    <None Include="Resources\Scripts\test.lua" />
+    <None Include="Resources\Shaders\Bloom.fs" />
+    <None Include="Resources\Shaders\Bloom.vs" />
+    <None Include="Resources\Shaders\Blur.fs" />
+    <None Include="Resources\Shaders\Debug.fs" />
+    <None Include="Resources\Shaders\Debug.vs" />
+    <None Include="Resources\Shaders\Door.fs" />
+    <None Include="Resources\Shaders\Door.vs" />
+    <None Include="Resources\Shaders\ParticleSystem.fs" />
+    <None Include="Resources\Shaders\ParticleSystem.vs" />
+    <None Include="Resources\Shaders\Shader.fs" />
+    <None Include="Resources\Shaders\Shader.vs" />
+    <None Include="Resources\Shaders\TextRenderer.fs" />
+    <None Include="Resources\Shaders\TextRenderer.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Matricks.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\Matricks.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Resources_4Data_4aitest_1json__JSONSchema="http://json.schemastore.org/bootstraprc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

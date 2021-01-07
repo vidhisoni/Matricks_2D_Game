@@ -1,0 +1,23 @@
+{
+  "Type": "Value",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "transparent",
+      "Shape": 0
+    },
+    {
+      "Type": "Text",
+      "Value": "0",
+      "Scale": 1.0,
+      "Color": [ 0.0, 0.0, 0.0 ],
+      "Offset": [ -0.1, -0.1 ]
+    }   
+  ]
+}

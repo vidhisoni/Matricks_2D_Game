@@ -1,0 +1,514 @@
+{
+  "Camera": {
+    "Offset": [ 800, 450 ],
+    "StartPos": [ -2605, -12],
+    "Speed": [ 2.5, 1.0 ]
+  },
+  "Objects": [
+    {
+      "File": "player.json",
+      "Children": [
+        {
+          "Index": 1,
+          "Prompt": {
+            "Messages": [
+              {
+                "CollideWith": "Trap",
+                "Message": "Beware of these sponges... They won't let you pass through"
+              }
+            ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 2748.15, -1015.01, 0.2 ],
+        "Scale": [ 200, 200 ],
+        "Angle": 0
+      },
+      "PlayerState": {
+        "Tools": [ false, false ],
+        "CurrentState": 0
+      },
+      "Body": { "Jumps": 2 }
+    },
+    {
+      "File": "parallaxbg.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 200.9, -800.8, 0.9 ],
+            "Scale": [ 20000, 5000 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "sky",
+            "Shape": 0
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [ 1500.07, 150.35, 0.7 ],
+            "Scale": [ 6060, 1680 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "planets",
+            "Shape": 0,
+            "Tiling": [ 3, 3 ],
+            "Bloom": true
+          }
+        },
+        {
+          "Index": 2,
+          "Transform": {
+            "Pos": [ 1500.18, 50.69, 0.8 ],
+            "Scale": [ 5760, 1380 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "stars",
+            "Shape": 0,
+            "Tiling": [ 2, 2 ],
+            "Bloom": true
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 960, 450, 0.9 ],
+        "Scale": [ 1920, 1080 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 755, -1125, 0.4 ],
+        "Scale": [ 4650, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [ 6, 1 ]
+      }
+    },
+    {
+      "File": "FinalDoor.json",
+      "Transform": {
+        "Pos": [ 2775, 5, 0.4 ],
+        "Scale": [ 150, 300 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "StartDoor.json",
+      "Transform": {
+        "Pos": [ 2865, -955, 0.4 ],
+        "Scale": [ 150, 300 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "door",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          2865,
+          -968,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          2775,
+          -8,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "Platform.json",
+      "Transform": {
+        "Pos": [ 2710, -170, 0.4 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "Platform.json",
+      "Transform": {
+        "Pos": [ 1640, -385, 0.4 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "Platform.json",
+      "Transform": {
+        "Pos": [ 485, -385, 0.4 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "Platform.json",
+      "Transform": {
+        "Pos": [ -620, -385, 0.4 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "trapUp.json",
+      "Transform": {
+        "Pos": [ -49, 30, 0.4 ],
+        "Scale": [ 125, 125 ],
+        "Angle": 243066
+      },
+      "Script": {
+        "UpLimit": 45,
+        "DownLimit": -450,
+        "Speed": 2.5
+      }
+    },
+    {
+      "File": "trapUp.json",
+      "Transform": {
+        "Pos": [ 1065.98, -145, 0.4 ],
+        "Scale": [ 125, 125 ],
+        "Angle": 166655
+      },
+      "Script": {
+        "UpLimit": 45,
+        "DownLimit": -450,
+        "Speed": 2.5
+      }
+    },
+    {
+      "File": "Platform.json",
+      "Transform": {
+        "Pos": [ -1555, -575, 0.4 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          -1845,
+          -350,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": false
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          -1255,
+          -500,
+          0.4
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ -1210, -650, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ -1120, -750, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ -1030, -850, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ -940, -950, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ -855, -1050, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "PromptTrigger.json",
+      "Transform": {
+        "Pos": [ -530, -290, 0.4 ],
+        "Scale": [ 125, 125 ]
+      },
+      "Trigger": {
+        "ID": 1,
+        "Parent": "Trap"
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_BeeBee_L10.wav",
+            "Volume": 2,
+            "IsLoop": false
+          }
+        ],
+        "IsMute": false,
+        "BGM": false,
+        "isSFX": false,
+        "isPromptAudio": true
+      }
+    },
+    {
+      "File": "trapUp.json",
+      "Transform": {
+        "Pos": [ 2184, -130, 0.4 ],
+        "Scale": [ 125, 125 ],
+        "Angle": 10555
+      },
+      "Script": {
+        "UpLimit": 80,
+        "DownLimit": -300,
+        "Speed": 2.5
+      },
+      "Body": {
+        "Bounce": 1
+      }
+
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          2675,
+          -900,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          1855,
+          -1050,
+          0.4
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          1035,
+          -900,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          215,
+          -1050,
+          0.4
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          -635,
+          -900,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          -1455,
+          -1050,
+          0.4
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          -617,
+          -160,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          485,
+          -160,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          1637,
+          -310,
+          0.4
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          2495,
+          55,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    }
+  ]
+}

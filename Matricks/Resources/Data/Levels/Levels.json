@@ -1,0 +1,141 @@
+{
+  "Levels": [
+    {
+      "Level": -12,
+      "File": "levellist.json"
+    },
+    {
+      "Level": -13,
+      "File": "storypause.json"
+    },
+    {
+      "Level": -11,
+      "File": "quitconfirm.json"
+    },
+    {
+      "Level": -10,
+      "File": "howtoplay.json"
+    },
+    {
+      "Level": -9,
+      "File": "settings.json"
+    },
+    {
+      "Level": -8,
+      "File": "pausemenu.json"
+    },
+    {
+      "Level": -7,
+      "File": "nicemenu.json"
+    },
+    {
+      "Level": -6,
+      "File": "storyline1.json"
+    },
+    {
+      "Level": -5,
+      "File": "storyline2.json"
+    },
+    {
+      "Level": -4,
+      "File": "storyline3.json"
+    },
+    {
+      "Level": -3,
+      "File": "storyline4.json"
+    },
+    {
+      "Level": -2,
+      "File": "storyline5.json"
+    },
+    {
+      "Level": -1,
+      "File": "storyline6.json"
+    },
+    {
+      "Level": 0,
+      "File": "storyline7.json"
+    },
+    {
+      "Level": 1,
+      "File": "Level_1.json"
+    },
+    {
+      "Level": 2,
+      "File": "Level_2.json"
+    },
+    {
+      "Level": 3,
+      "File": "Level_3.json"
+    },
+    {
+      "Level": 4,
+      "File": "Level_4.json"
+    },
+    {
+      "Level": 5,
+      "File": "Level_5.json"
+    },
+    {
+      "Level": 6,
+      "File": "Level_6.json"
+    },
+    {
+      "Level": 7,
+      "File": "Level_7.json"
+    },
+    {
+      "Level": 8,
+      "File": "Level_8.json"
+    },
+    {
+      "Level": 9,
+      "File": "Level_9.json"
+    },
+    {
+      "Level": 10,
+      "File": "Level_10.json"
+    },
+    {
+      "Level": 11,
+      "File": "Level_11.json"
+    },
+    {
+      "Level": 12,
+      "File": "Level_12.json"
+    },
+    {
+      "Level": 13,
+      "File": "Level_13.json"
+    },
+    {
+      "Level": 14,
+      "File": "Level_14.json"
+    },
+    {
+      "Level": 15,
+      "File": "endstory1.json"
+    },
+    {
+      "Level": 16,
+      "File": "endstory2.json"
+    },
+    {
+      "Level": 17,
+      "File": "endstory3.json"
+    },
+    {
+      "Level": 18,
+      "File": "endstory4.json"
+    },
+    {
+      "Level": 19,
+      "File": "credits.json"
+    },
+    {
+      "Level": -14,
+      "File": "levelTemplate.json"
+    }
+
+  ]
+}

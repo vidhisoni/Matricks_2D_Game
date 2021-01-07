@@ -1,0 +1,382 @@
+{
+  "Textures": [
+    {
+      "Type": "playeridleright",
+      "File": "Animations/player/idleright/idle 1.png"
+    },
+    {
+      "Type": "cloud",
+      "File": "Animations/cloud/Cloud_1.png"
+    },
+    {
+      "Type": "infbox",
+      "File": "Box 1.png"
+    },
+    {
+      "Type": "door",
+      "File": "door.png"
+    },
+    {
+      "Type": "ruler",
+      "File": "Ruler.png"
+    },
+    {
+      "Type": "StartDoorRight",
+      "File": "StartDoorRight.png"
+    },
+    {
+      "Type": "sponge",
+      "File": "sponge.PNG"
+    },
+    {
+      "Type": "startdoor",
+      "File": "StartDoor.png"
+    },
+    {
+      "Type": "shortlamp",
+      "File": "shortlamp.png"
+    },
+    {
+      "Type": "boxPush",
+      "File": "boxpush.png"
+    },
+    {
+      "Type": "druler",
+      "File": "DRuler.png"
+    },
+    {
+      "Type": "setsquare",
+      "File": "SetSquare.png"
+    },
+    {
+      "Type": "box",
+      "File": "Box 2.png"
+    },
+    {
+      "Type": "planets",
+      "File": "background/planets.png"
+    },
+    {
+      "Type": "sky",
+      "File": "background/Sky.png"
+    },
+    {
+      "Type": "stars",
+      "File": "background/stars.png"
+    },
+    {
+      "Type": "transparent",
+      "File": "transparent.png"
+    },
+    {
+      "Type": "levelsbg",
+      "File": "background/1.png"
+    },
+    {
+      "Type": "menuNEW",
+      "File": "menuNEW.png"
+    },
+    {
+      "Type": "DRuler",
+      "File": "DRuler.png"
+    },
+    {
+      "Type": "coin",
+      "File": "coin.png"
+    },
+    {
+      "Type": "charge",
+      "File": "Animations/charge/bolt1.png"
+    },
+    {
+      "Type": "finaldoor",
+      "File": "OrangeDoor.png"
+    },
+    {
+      "Type": "noise",
+      "File": "Noise.png"
+    },
+    {
+      "Type": "particle",
+      "File": "coin.png"
+    },
+    {
+      "Type": "particle_door",
+      "File": "star.png"
+    },
+    {
+      "Type": "UFO",
+      "File": "UFO.png"
+    },
+    {
+      "Type": "inactivebox",
+      "File": "inactive_box.png"
+    },
+    {
+      "Type": "lamppost",
+      "File": "Lamp_post.png"
+    },
+    {
+      "Type": "eraser",
+      "File": "eraser.png"
+    },
+    {
+      "Type": "eraser1",
+      "File": "eraser1.png"
+    },
+    {
+      "Type": "proff",
+      "File": "proff.png"
+    },
+    {
+      "Type": "pausebg",
+      "File": "pausemenu.png"
+    },
+    {
+      "Type": "pausebg1",
+      "File": "pausemenu1.png"
+    },
+    {
+      "Type": "plus",
+      "File": "plus.png"
+    },
+    {
+      "Type": "minus",
+      "File": "minus.png"
+    },
+    {
+      "Type": "pickup",
+      "File": "pickup.png"
+    },
+    {
+      "Type": "back",
+      "File": "back.png"
+    },
+    {
+      "Type": "howtoplay",
+      "File": "How_to_Play.png"
+    },
+    {
+      "Type": "story1-1",
+      "File": "Animations/storysketch/story_1-1.png"
+    },
+    {
+      "Type": "story1-2",
+      "File": "Animations/storysketch/story_1-2.png"
+    },
+    {
+      "Type": "story1-3",
+      "File": "Animations/storysketch/story_1-3.png"
+    },
+    {
+      "Type": "story2-1",
+      "File": "Animations/storysketch/story_2-1.png"
+    },
+    {
+      "Type": "story2-2",
+      "File": "Animations/storysketch/story_2-2.png"
+    },
+    {
+      "Type": "story2-3",
+      "File": "Animations/storysketch/story_2-3.png"
+    },
+    {
+      "Type": "story3-1",
+      "File": "Animations/storysketch/story_3-1.png"
+    },
+    {
+      "Type": "story3-2",
+      "File": "Animations/storysketch/story_3-2.png"
+    },
+    {
+      "Type": "story3-3",
+      "File": "Animations/storysketch/story_3-3.png"
+    },
+    {
+      "Type": "story4-1",
+      "File": "Animations/storysketch/story_4-1.png"
+    },
+    {
+      "Type": "story4-2",
+      "File": "Animations/storysketch/story_4-2.png"
+    },
+    {
+      "Type": "story4-3",
+      "File": "Animations/storysketch/story_4-3.png"
+    },
+    {
+      "Type": "story5-1",
+      "File": "Animations/storysketch/story_5-1.png"
+    },
+    {
+      "Type": "story5-2",
+      "File": "Animations/storysketch/story_5-2.png"
+    },
+    {
+      "Type": "story6-1",
+      "File": "Animations/storysketch/story_6-1.png"
+    },
+    {
+      "Type": "story6-2",
+      "File": "Animations/storysketch/story_6-2.png"
+    },
+    {
+      "Type": "story7",
+      "File": "Animations/storysketch/story_7.png"
+    },
+    {
+      "Type": "end1-1",
+      "File": "Animations/endsketch/1_1.png"
+    },
+    {
+      "Type": "end1-2",
+      "File": "Animations/endsketch/1_2.png"
+    },
+    {
+      "Type": "end2-1",
+      "File": "Animations/endsketch/2_1.png"
+    },
+    {
+      "Type": "end2-2",
+      "File": "Animations/endsketch/2_2.png"
+    },
+    {
+      "Type": "end3-1",
+      "File": "Animations/endsketch/3_1.png"
+    },
+    {
+      "Type": "end3-2",
+      "File": "Animations/endsketch/3_2.png"
+    },
+    {
+      "Type": "end3-3",
+      "File": "Animations/endsketch/3_3.png"
+    },
+    {
+      "Type": "end4",
+      "File": "Animations/endsketch/4.png"
+    },
+    {
+      "Type": "credit1",
+      "File": "Animations/credits/1.png"
+    },
+    {
+      "Type": "credit2",
+      "File": "Animations/credits/2.png"
+    },
+    {
+      "Type": "credit3",
+      "File": "Animations/credits/3.png"
+    },
+    {
+      "Type": "credit4",
+      "File": "Animations/credits/4.png"
+    },
+    {
+      "Type": "credit5",
+      "File": "Animations/credits/5.png"
+    },
+    {
+      "Type": "credit6",
+      "File": "Animations/credits/6.png"
+    },
+    {
+      "Type": "credit7",
+      "File": "Animations/credits/7.png"
+    },
+    {
+      "Type": "selectedbutton",
+      "File": "correct circle.png"
+    },
+    {
+      "Type": "quit",
+      "File": "quit.png"
+    },
+    {
+      "Type": "AudioMute",
+      "File": "AudioMute.png"
+    },
+    {
+      "Type": "AudioUnMute",
+      "File": "AudioUnMute.png"
+    },
+    {
+      "Type": "OpenHUDDoor",
+      "File": "OpenHUDDoor.png"
+    },
+    {
+      "Type": "CloseHUDDoor",
+      "File": "CloseHUDDoor.png"
+    }
+  ],
+  "Animations": [
+    {
+      "Type": "fire",
+      "FileDir": "enemy"
+    },
+    {
+      "Type": "playerwalkleft",
+      "FileDir": "player/walkleft"
+    },
+    {
+      "Type": "playerpushleft",
+      "FileDir": "player/pushleft"
+    },
+    {
+      "Type": "playerpushright",
+      "FileDir": "player/pushright"
+    },
+    {
+      "Type": "playerwalkright",
+      "FileDir": "player/walkright"
+    },
+    {
+      "Type": "playeridleleft",
+      "FileDir": "player/idleleft"
+    },
+    {
+      "Type": "playeridleright",
+      "FileDir": "player/idleright"
+    },
+    {
+      "Type": "playerjumpright",
+      "FileDir": "player/jumpright"
+    },
+    {
+      "Type": "playerjumpleft",
+      "FileDir": "player/jumpleft"
+    },
+    {
+      "Type": "playerdab",
+      "FileDir": "player/dab"
+    },
+    {
+      "Type": "box",
+      "FileDir": "triangle"
+    },
+    {
+      "Type": "cloud",
+      "FileDir": "cloud"
+    },
+    {
+      "Type": "charge",
+      "FileDir": "charge"
+    },
+    {
+      "Type": "dooropenleft",
+      "FileDir": "door/openleft"
+    },
+    {
+      "Type": "dooropenright",
+      "FileDir": "door/openright"
+    },
+    {
+      "Type": "UFO",
+      "FileDir": "UFO"
+    },
+    {
+      "Type": "mainmenu",
+      "FileDir": "mainmenu"
+    }
+  ]
+}

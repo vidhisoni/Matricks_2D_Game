@@ -1,0 +1,38 @@
+{
+  "Type": "Numbox",
+  "Components" : [
+  {
+    "Type": "Transform",
+    "Pos": [ 900.0, 680.0 ],
+    "Scale": [ 1.0, 1.0 ],
+    "Angle": 0.0
+  },
+    {
+      "Type": "Sprite",
+      "Texture": "LMidStair",
+      "Shape": 0
+    },
+  { 
+    "Type": "Body",
+    "Vel": [ 0.0, 0.0 ],
+    "Accel": [ 0.0, 0.0 ],
+    "Mass": 0.0,
+    "AABB": [ 1, 1 ],
+    "Bounce": 0.0,
+    "Friction": [ 0.0, 0.0 ]
+  },
+    {
+      "Type": "Audio",
+      "AudioClip": [
+        {
+          "Clip": "SFX_BlockFall.wav",
+          "Volume": 1,
+          "IsLoop": false
+        }
+      ],
+      "IsMute": false,
+      "BGM": false,
+      "isSFX": true
+    }
+]
+}

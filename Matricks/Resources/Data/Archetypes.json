@@ -1,0 +1,44 @@
+{
+    "Prefabs":[
+        {
+            "Type" : "Player",
+            "File": "player.json"
+        },
+        {
+            "Type" : "Platform",
+            "File": "Platform.json"
+        },
+        {
+            "Type" : "Background",
+            "File": "background.json"
+        },
+        {
+            "Type" : "Numbox",
+            "File": "Box.json"
+        },
+        {
+            "Type" : "IDoor",
+            "File": "IDoor.json"
+        },
+        {
+            "Type" : "Button",
+            "File": "button.json"
+        },
+        {
+            "Type" : "Trap",
+            "File": "trap.json"
+        },
+        {
+            "Type" : "FinalDoor",
+            "File": "FinalDoor.json"
+        },
+        {
+            "Type" : "InvisiPlatform",
+            "File": "Invisi Platform.json"
+        },
+        {
+            "Type" : "Bouncy",
+            "File": "Platform Bouncy.json"
+        }
+    ]
+}

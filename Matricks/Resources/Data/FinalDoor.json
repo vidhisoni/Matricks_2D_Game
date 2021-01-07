@@ -1,0 +1,63 @@
+{
+  "Type": "FinalDoor",
+  "Children": [
+    {
+      "File": "HUDDoor.json"
+    }
+  ],
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "finaldoor",
+      "Shape": 0
+    },
+    {
+      "Type": "Body",
+      "Vel": [ 0.0, 0.0 ],
+      "Accel": [ 0.0, 0.0 ],
+      "Mass": 0.0,
+      "AABB": [ 1, 1 ],
+      "Bounce": 0.1,
+      "Friction": [ 0.0, 0.0 ]
+    },
+    {
+      "Type": "Text",
+      "Value": "",
+      "Scale": 1.5,
+      "Color": [ 0.16, 0.3, 1.0 ],
+      "Offset": [ -0.1, 0.15 ]
+    },
+    {
+      "Type": "State"
+    },
+    {
+      "Type": "Animator",
+      "SpriteSheet": [
+        {
+          "Type": "openingleft",
+          "Sheet": "dooropenleft"
+        },
+        {
+          "Type": "openingright",
+          "Sheet": "dooropenright"
+        }
+      ]
+    },
+    {
+      "Type": "Subscription",
+      "SubscribeTo": [ "ChangeLevel" ]
+    },
+    {
+      "Type": "Particle",
+      "Texture": "particle_door",
+      "Amount": 100,
+      "Offset": [ 0.0, -150.0 ]
+    }
+  ]
+}

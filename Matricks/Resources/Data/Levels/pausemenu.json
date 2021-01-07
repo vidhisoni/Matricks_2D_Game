@@ -1,0 +1,201 @@
+{
+  "Objects": [
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 990.0, 740.0, 0.0 ],
+        "Scale": [ 270.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Resume Game",
+        "Scale" : 0.9,
+        "Offset": [ -0.38, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 990.0, 650.0, 0.0 ],
+        "Scale": [ 250.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Restart Level",
+        "Scale" : 0.9,
+        "Offset": [ -0.4, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover1.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 990.0, 560.0, 0.0 ],
+        "Scale": [ 250.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "How To Play",
+        "Scale": 0.9,
+        "Offset": [ -0.36, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover2.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 990.0, 470.0, 0.0 ],
+        "Scale": [ 250.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Options",
+        "Scale" : 0.9,
+        "Offset": [ -0.25, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover3.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 990.0, 380.0, 0.0 ],
+        "Scale": [ 250.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "MainMenu",
+        "Scale" : 0.9,
+        "Offset": [ -0.3, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "MenuHover.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 990.0, 290.0, 0.0 ],
+        "Scale": [ 250.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Quit Game",
+        "Scale" : 0.9,
+        "Offset": [ -0.3, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "MenuHover2.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "background.json",
+      "Transform": {
+        "Pos": [ 990.0, 540.0, 0.1 ],
+        "Scale": [ 450.0, 700.0 ]
+      },
+      "Sprite": {
+        "Texture": "pausebg",
+        "HUD": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AudioManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrameRateController.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjectManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\stbi_image\stbi_image.cpp">
+      <Filter>Source Files\Dependencies\stbi_image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transform.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Controller.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Body.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjectFactory.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui.cpp">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_demo.cpp">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_draw.cpp">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_impl_sdl.cpp">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Imgui\imgui_widgets.cpp">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animator.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Subscriber.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerState.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParallaxBg.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextRenderer.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\Indexbuffer.cpp">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\Renderer.cpp">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\Shader.cpp">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\Texture.cpp">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\VertexArray.cpp">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\VertexBuffer.cpp">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cloud.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScriptHandler.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LinerAI.cpp">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AlarmComponent.cpp">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AI_Enemy.cpp">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\key.cpp">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitter.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleSystem.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestAI.cpp">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TriggerComponent.cpp">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collider.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NSquared.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\OpenGL\FrameBuffer.cpp">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Prompt.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Prompt_Trigger.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DynamicAABBTree.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Story.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MenuControl.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Levels.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\AudioManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FrameRateController.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjectManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLEW\include\GL\eglew.h">
+      <Filter>Source Files\Dependencies\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLEW\include\GL\glew.h">
+      <Filter>Source Files\Dependencies\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLEW\include\GL\glxew.h">
+      <Filter>Source Files\Dependencies\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLEW\include\GL\wglew.h">
+      <Filter>Source Files\Dependencies\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\begin_code.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\close_code.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_assert.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_atomic.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_audio.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_bits.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_blendmode.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_clipboard.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_config.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_cpuinfo.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_endian.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_error.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_events.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_filesystem.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_gamecontroller.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_gesture.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_haptic.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_hints.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_joystick.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_keyboard.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_keycode.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_loadso.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_log.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_main.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_messagebox.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_mouse.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_mutex.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_name.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_opengl.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_opengles.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_opengles2.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_pixels.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_platform.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_power.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_quit.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_rect.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_render.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_revision.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_rwops.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_scancode.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_shape.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_stdinc.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_surface.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_system.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_syswm.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_assert.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_common.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_compare.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_crc32.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_font.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_fuzzer.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_harness.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_images.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_log.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_md5.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_test_random.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_thread.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_timer.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_touch.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_types.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_version.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SDL\include\SDL_video.h">
+      <Filter>Source Files\Dependencies\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\OpenGL\IndexBuffer.h">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\OpenGL\Renderer.h">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\OpenGL\Shader.h">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\OpenGL\Texture.h">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\OpenGL\VertexArray.h">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\OpenGL\VertexBuffer.h">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\stbi_image\stbi_image.h">
+      <Filter>Source Files\Dependencies\stbi_image</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transform.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Controller.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Body.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjectFactory.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Imgui\imconfig.h">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Imgui\imgui.h">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Imgui\imgui_impl_opengl3.h">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Imgui\imgui_impl_sdl.h">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Imgui\imgui_internal.h">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Imgui\imstb_rectpack.h">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Imgui\imstb_textedit.h">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Imgui\imstb_truetype.h">
+      <Filter>Source Files\Dependencies\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animator.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerState.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Subscriber.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextRenderer.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParallaxBg.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\allocators.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\biginteger.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\cursorstreamwrapper.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\diyfp.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\document.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\dtoa.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\error\en.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\encodedstream.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\encodings.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\error\error.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\filereadstream.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\filewritestream.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\fwd.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\ieee754.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\msinttypes\inttypes.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\istreamwrapper.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\itoa.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\memorybuffer.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\memorystream.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\meta.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\ostreamwrapper.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\pointer.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\pow10.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\prettywriter.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\rapidjson.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\reader.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\regex.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\schema.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\stack.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\msinttypes\stdint.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\stream.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\strfunc.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\stringbuffer.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\strtod.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\internal\swap.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\rapidjson\writer.h">
+      <Filter>Source Files\Dependencies\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cloud.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScriptHandler.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LinerAI.h">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AlarmComponent.h">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AI_Enemy.h">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\key.h">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestAI.h">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TriggerComponent.h">
+      <Filter>Source Files\Components\Prototype Components\AI Wala Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleSystem.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitter.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collider.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BroadPhase.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\OpenGL\FrameBuffer.h">
+      <Filter>Source Files\Dependencies\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Prompt.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Prompt_Trigger.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DynamicAABBTree.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NSquared.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Story.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MenuControl.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Levels.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{09e50647-309f-4a82-9f40-230a9620d16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{100363f7-b2c1-4790-a7e5-5adce0ab32c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dependencies">
+      <UniqueIdentifier>{5e5f0f54-b882-4ac7-b061-b0c5eb7a2e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{a4e1689a-3b52-4e0b-a67a-a990caa3f856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dependencies\GLEW">
+      <UniqueIdentifier>{ab75b6b9-691b-4689-9c34-743743ab0230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dependencies\SDL">
+      <UniqueIdentifier>{5fc915cd-178b-42f4-892f-5921c79e1de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dependencies\OpenGL">
+      <UniqueIdentifier>{f7b068c9-bc64-456b-8ee4-fe31641168ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dependencies\stbi_image">
+      <UniqueIdentifier>{5464a0b0-e4f1-4a3f-bd7f-d4fc7f1ddd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{7bb3765a-84b0-47c5-ba45-0c260864621f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dependencies\Imgui">
+      <UniqueIdentifier>{7aba6970-960e-431e-9ce6-f64a0aa84714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dependencies\rapidjson">
+      <UniqueIdentifier>{4bda62e0-625c-4714-a3c6-7a923b823c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripts">
+      <UniqueIdentifier>{70b78ea6-5a9e-4e23-b793-8c529ac21df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Prototype Components">
+      <UniqueIdentifier>{91fc4974-a694-48b5-8a9e-f03b4017ae2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Prototype Components\AI Wala Prototype">
+      <UniqueIdentifier>{937fcdb3-83d6-46f0-be5b-049338a96edc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\Shader.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Shader.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Debug.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Debug.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\TextRenderer.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\TextRenderer.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ParticleSystem.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\ParticleSystem.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Scripts\abc.lua">
+      <Filter>Source Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scripts\test.lua">
+      <Filter>Source Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scripts\coin.lua">
+      <Filter>Source Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scripts\linerAI.lua">
+      <Filter>Source Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Shaders\Bloom.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Bloom.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Blur.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Scripts\lift.lua">
+      <Filter>Source Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Shaders\Door.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Door.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Matricks.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\Matricks.ico" />
+  </ItemGroup>
+</Project>

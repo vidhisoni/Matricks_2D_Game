@@ -1,0 +1,28 @@
+{
+	"Type" : "NoObject",
+	"Components" : [
+		{
+			"Type" :"Transform",
+			"Pos"  : [0.0, 0.0],
+			"Scale" : [1.0,1.0],
+			"Angle" : 0.0
+		},	
+		{
+			"Type" :"Sprite",
+			"Texture" : "CloseHUDDoor",
+			"Shape" : 0,
+			"HUD" : true
+		},
+		{
+			"Type" :"Text",
+			"Value" : "",
+			"Scale" : 1.0,
+			"Color" : [0.16,0.3,0.6],
+			"Offset" : [0.0,-0.1]
+		},
+		{
+			"Type": "Subscription",
+			"SubscribeTo": ["OpenHUDDoor"]
+		}
+	]
+}

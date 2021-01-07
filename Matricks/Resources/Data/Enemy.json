@@ -1,0 +1,45 @@
+{
+  "Type": 3,
+  "Transform": {
+    "Pos": [ 0.0, 0.0 ],
+    "Scale": [ 1.0, 1.0 ],
+    "Angle": 0.0
+  },
+  "Sprite": {
+    "Texture": "medpack",
+    "Shape": 0
+  },
+  "Body": {
+    "Vel": [ 0.0, 0.0 ],
+    "Accel": [ 0.0, 0.0 ],
+    "Mass": 5.0,
+    "AABB": [ 1.0, 1.0 ],
+    "Bounce" :  2.0,
+    "Friction": [ 0.0, 0.0 ]
+  },
+  "State": true,
+  "Animator": {
+    "SpriteSheet": [
+      {
+        "Type": "active",
+        "Sheet": "fire"
+      }
+    ]
+  },
+  "Text": {
+    "Value": "Enemy",
+    "Scale": 0.5,
+    "Color": [ 0.0, 1.0, 0.0 ],
+    "Offset": [ -0.3, 0.6 ]
+  },
+  "LinerAI": {
+    "MoveLeft": false,
+    "MoveRight": false
+  },
+  "Script": {
+    "scriptName": "linerAI.lua"
+  },
+  "Subscription": {
+    "SubscribeTo": [ 8 ]
+  }
+}

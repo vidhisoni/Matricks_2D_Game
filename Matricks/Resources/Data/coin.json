@@ -1,0 +1,23 @@
+{
+  "Type": 18,
+  "Transform": {
+    "Pos": [ 0.0, 0.0 ],
+    "Scale": [ 1.0, 1.0 ],
+    "Angle": 0.0
+  },
+  "Sprite": {
+    "Texture": "coin",
+    "Shape": 0
+  },
+  "Body": {
+    "Vel": [ 0.0, 0.0 ],
+    "Accel": [ 0.0, 0.0 ],
+    "Mass": 0.0,
+    "AABB": [ 1.0, 1.0 ],
+    "Bounce": 1.0,
+    "Collider": true
+  },
+  "Script": {
+    "scriptName": "coin.lua"
+  }
+}

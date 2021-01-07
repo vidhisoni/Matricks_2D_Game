@@ -1,0 +1,179 @@
+{
+  "Type": "Player",
+  "Children": [
+    {
+      "Type": "Cloud",
+      "Components": [
+        {
+          "Type": "Transform",
+          "Pos": [ 0.0, 0.0, 0.2 ],
+          "Scale": [ 0.0, 0.0 ],
+          "Angle": 0.0
+        },
+        {
+          "Type": "State"
+        },
+        {
+          "Type": "Animator",
+          "SpriteSheet": [
+            {
+              "Type": "active",
+              "Sheet": "cloud"
+            }
+          ]
+        },
+        {
+          "Type": "Sprite",
+          "Texture": "cloud",
+          "Shape": 0,
+          "Bloom": true
+        },
+        {
+          "Type": "Cloud",
+          "Offset": [ 0.0, 0.8 ]
+        },
+        {
+          "Type": "Text",
+          "Value": "",
+          "Scale": 1.5,
+          "Color": [ 0.0, 0.0, 0.0 ],
+          "Offset": [ -0.1, -0.1 ]
+        },
+        {
+          "Type": "Subscription",
+          "SubscribeTo": [ "ChangeNumber" ]
+        },
+        {
+          "Type": "Light",
+          "Angle": 0.0,
+          "Spread": 360.0,
+          "Distance": 1
+        }
+      ]
+    },
+    {
+      "Type": "Prompter",
+      "File": "Prompter.json"
+    },
+    {
+      "File": "HUDCharge.json"
+    }
+  ],
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Controller"
+    },
+    {
+      "Type": "Body",
+      "Vel": [ 0.0, 0.0 ],
+      "Accel": [ 0.0, 0.0 ],
+      "Mass": 10.0,
+      "AABB": [ 0.4, 0.85 ],
+      "Friction": [ 0.1, 0.1 ],
+      "Jumps": 2
+    },
+    {
+      "Type": "Script",
+      "scriptName": "abc.lua"
+    },
+    {
+      "Type": "PlayerState"
+    },
+    {
+      "Type": "Animator",
+      "SpriteSheet": [
+        {
+          "Type": "idleleft",
+          "Sheet": "playeridleleft"
+        },
+        {
+          "Type": "idleright",
+          "Sheet": "playeridleright"
+        },
+        {
+          "Type": "walkleft",
+          "Sheet": "playerwalkleft"
+        },
+        {
+          "Type": "walkright",
+          "Sheet": "playerwalkright"
+        },
+        {
+          "Type": "pushright",
+          "Sheet": "playerpushright"
+        },
+        {
+          "Type": "pushleft",
+          "Sheet": "playerpushleft"
+        },
+        {
+          "Type": "jumpleft",
+          "Sheet": "playerjumpleft"
+        },
+        {
+          "Type": "jumpright",
+          "Sheet": "playerjumpright"
+        },
+        {
+          "Type": "dab",
+          "Sheet": "playerdab"
+        }
+      ]
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "playeridleright",
+      "Shape": 0
+    },
+    {
+      "Type": "Audio",
+      "AudioClip": [
+        {
+          "Clip": "SFX_Walk.mp3",
+          "Volume": 0.5,
+          "IsLoop": true
+        },
+        {
+          "Clip": "SFX_Pick.wav",
+          "Volume": 0.5,
+          "IsLoop": false
+        },
+        {
+          "Clip": "SFX_BlockFall.wav",
+          "Volume": 0.5,
+          "IsLoop": false
+        },
+        {
+          "Clip": "SFX_Smash.mp3",
+          "Volume": 0.5,
+          "IsLoop": false
+        },
+        {
+          "Clip": "SFX_Jump.mp3",
+          "Volume": 0.5,
+          "IsLoop": false
+        },
+        {
+          "Clip": "SFX_Levelcomplete.wav",
+          "Volume": 1,
+          "IsLoop": false
+        }
+      ],
+      "IsMute": false,
+      "BGM": false,
+      "isSFX": true
+    },
+    {
+      "Type": "Particle",
+      "Texture": "particle",
+      "Amount": 20,
+      "Offset": [ 40.0, -100.0 ]
+    }
+  ]
+} 

@@ -1,0 +1,25 @@
+{
+  "Type": "Box",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "eraser",
+      "Shape": 0
+    },
+    {
+      "Type": "Body",
+      "Vel": [ 0.0, 0.0 ],
+      "Accel": [ 0.0, 0.0 ],
+      "Mass": 0.0,
+      "AABB": [ 1, 1 ],
+      "Bounce": 0.0,
+      "Friction": [ 0.2, 0.15 ]
+    }
+  ]
+}

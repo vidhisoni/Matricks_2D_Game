@@ -1,0 +1,84 @@
+{
+  "Type": "Background",
+  "Children": [
+    {
+      "Type": "Background",
+      "Components": [
+        {
+          "Type": "Transform",
+          "Pos": [ 0.0, 0.0 ],
+          "Scale": [ 1.0, 1.0 ],
+          "Angle": 0.0
+        },
+        {
+          "Type": "Sprite",
+          "Texture": "sky",
+          "Shape": 0
+        }
+      ]
+    },
+    {
+      "Type": "Background",
+      "Components": [
+        {
+          "Type": "Transform",
+          "Pos": [ 0.0, 0.0 ],
+          "Scale": [ 1.0, 1.0 ],
+          "Angle": 0.0
+        },
+        {
+          "Type": "Sprite",
+          "Texture": "planets",
+          "Shape": 0,
+          "Bloom" : true
+        }
+      ]
+    },
+    {
+      "Type": "Background",
+      "Components": [
+        {
+          "Type": "Transform",
+          "Pos": [ 0.0, 0.0 ],
+          "Scale": [ 1.0, 1.0 ],
+          "Angle": 0.0
+        },
+        {
+          "Type": "Sprite",
+          "Texture": "stars",
+          "Shape": 0,
+          "Bloom" : true
+        }
+      ]
+    }
+  ],
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Parallax",
+      "Factoring": [ 1.0, 0.3, 0.6 ]
+    },
+    {
+      "Type": "Subscription",
+      "SubscribeTo": [ "CameraMove" ]
+    },
+    {
+      "Type": "Audio",
+      "AudioClip": [
+        {
+          "Clip": "BGM_SwingYourPartner.wma",
+          "Volume": 5,
+          "IsLoop": true
+        }
+      ], 
+      "IsMute": false,
+      "BGM": true,
+      "isSFX": false
+    }
+  ]
+}

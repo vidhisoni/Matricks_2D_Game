@@ -1,0 +1,32 @@
+{
+  "Type": "Box",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 900.0, 680.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "infbox",
+      "Shape": 0
+    },
+    {
+      "Type": "Body",
+      "Vel": [ 0.0, 0.0 ],
+      "Accel": [ 0.0, 0.0 ],
+      "Mass": 0.0,
+      "AABB": [ 1, 1 ],
+      "Bounce": 0.0,
+      "Friction": [ 0.2, 0.15 ]
+    },
+    {
+      "Type": "Light",
+      "Offset": [ 0.0, 0.20 ],
+      "Angle": 0.0,
+      "Spread": 360.0,
+      "Distance": 1.0
+    }
+  ]
+}

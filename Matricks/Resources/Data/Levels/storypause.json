@@ -1,0 +1,77 @@
+{
+  "Objects": [
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 990.0, 560.0, 0.0 ],
+        "Scale": [ 270.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Resume",
+        "Scale": 0.9,
+        "Offset": [ -0.2, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "SFX_MenuHover.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "button.json",
+      "Transform": {
+        "Pos": [ 990.0, 380.0, 0.0 ],
+        "Scale": [ 250.0, 50.0 ]
+      },
+      "Sprite": {
+        "Texture": "transparent",
+        "HUD": true
+      },
+      "Text": {
+        "Value": "Quit Game",
+        "Scale" : 0.9,
+        "Offset": [ -0.3, -0.25 ],
+        "Color": [ 0, 0, 0 ]
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "MenuClick.wav",
+            "Volume": 1,
+            "IsLoop": false
+          },
+          {
+            "Clip": "MenuHover2.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ]
+      }
+    },
+    {
+      "File": "background.json",
+      "Transform": {
+        "Pos": [ 990.0, 540.0, 0.1 ],
+        "Scale": [ 450.0, 700.0 ]
+      },
+      "Sprite": {
+        "Texture": "pausebg",
+        "HUD": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "Type": 22,
+  "Transform": {
+    "Pos": [ 0.0, 0.0 ],
+    "Scale": [ 1.0, 1.0 ],
+    "Angle": 0.0
+  },
+  "Sprite": {
+    "Texture": "transparent",
+    "Shape": 0
+  },
+  "Body": {
+    "Vel": [ 0.0, 0.0 ],
+    "Accel": [ 0.0, 0.0 ],
+    "Mass": 0.0,
+    "AABB": [ 1.0, 1.0 ],
+    "Bounce": 1.0,
+    "Collider": true
+  },
+  "TriggerComponent": {
+    "Position": 2
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "Camera":{
+    "Light": 1.0
+  },
+  "Objects": [
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 1620.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite":{
+        "Texture":"story4-1"
+      },
+      "Story": {
+        "Frame": 0,
+        "isSound": true
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_BirdChirps.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ],
+        "IsMute": false,
+        "BGM": false,
+        "isSFX" :  true
+      }
+    },
+        {
+        "File": "storysketch.json",
+        "Transform": {
+            "Pos": [ 960.0, 1620.0, 0.2 ],
+            "Scale": [ 1920.0, 1080.0 ]
+        },
+        "Sprite":{
+            "Texture":"story4-2"
+        },
+        "Story": {
+          "Frame": 1,
+          "isSound": true
+        }
+    },
+        {
+        "File": "storysketch.json",
+        "Transform": {
+            "Pos": [ 960.0, -540.0, 0.2 ],
+            "Scale": [ 1920.0, 1080.0 ]
+        },
+        "Sprite":{
+            "Texture":"story4-3"
+        },
+        "Story": {
+          "LastFrame": true,
+          "Frame": 2,
+          "isSound": true
+        }
+    }
+  ]
+}

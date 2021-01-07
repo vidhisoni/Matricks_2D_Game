@@ -1,0 +1,79 @@
+{
+  "Type": "Numbox",
+  "Children": [
+    {
+      "Type": "BoxTrigger",
+      "Components": [
+        {
+          "Type": "Transform",
+          "Pos": [ 0.0, 0.0, 0.4 ],
+          "Scale": [ 150.0, 150.0 ],
+          "Angle": 0.0
+        },
+        {
+          "Type": "Sprite",
+          "Texture": "transparent",
+          "Shape": 0
+        },
+        {
+          "Type": "Body",
+          "AABB": [ 1, 1 ],
+          "Collider" : true
+        }
+      ]
+    }
+  ],
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 900.0, 680.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "box",
+      "Shape": 0,
+      "Bloom": true
+    },
+    {
+      "Type": "Body",
+      "Vel": [ 0.0, 0.0 ],
+      "Accel": [ 0.0, 0.0 ],
+      "Mass": 3.5,
+      "AABB": [ 1, 1 ],
+      "Bounce": 0.0,
+      "Friction": [ 0.2, 0.15 ]
+    },
+    {
+      "Type": "Text",
+      "Value": "",
+      "Scale": 1.0,
+      "Color": [ 1.0, 1.0, 1.0 ],
+      "Offset": [ -0.1, -0.1 ]
+    },
+    {
+      "Type": "Subscription",
+      "SubscribeTo": [ "ChangeNumber", "ChargeUsed" ]
+    },
+    {
+      "Type": "Audio",
+      "AudioClip": [
+        {
+          "Clip": "SFX_Pickup_MagicBells.wav",
+          "Volume": 1,
+          "IsLoop": false
+        }
+      ],
+      "IsMute": false,
+      "BGM": false,
+      "isSFX": true
+    },
+    {
+      "Type": "Particle",
+      "Texture": "plus",
+      "Amount": 100,
+      "Offset": [ 10.0, -100.0 ]
+    }
+  ]
+}

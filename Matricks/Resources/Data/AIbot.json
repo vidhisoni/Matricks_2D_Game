@@ -1,0 +1,39 @@
+{
+  "Type": "AIbot",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite", 
+      "Texture": "proff",
+      "Shape": 0
+    },
+    {
+      "Type": "Body",
+      "Vel": [ 0.0, 0.0 ],
+      "Accel": [ 0.0, 0.0 ],
+      "Mass": 10.1,
+      "AABB": [ 1.0, 1.0 ],
+      "Friction": [ 0.0, 0.0 ]
+    },
+    {
+      "Type": "TestAI"
+    },
+
+    {
+      "Type": "Subscription",
+      "SubscribeTo": [ "AIMovement", "Box_Ai", "Num_Ai", "Box_Ai1", "Box_Ai2" ]
+    },
+    {
+      "Type": "Light",
+      "Offset": [ 0.0, 0.0 ],
+      "Angle": 0.0,
+      "Spread": 180.0,
+      "Distance": 1
+    }
+  ]
+}

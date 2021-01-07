@@ -1,0 +1,41 @@
+{
+    "Type": "NoObject",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "transparent",
+      "Shape": 0
+    },
+    {
+      "Type": "State"
+    },
+    {
+      "Type": "Animator",
+      "SpriteSheet": [
+        {
+          "Type": "active",
+          "Sheet": "mainmenu"
+        }
+      ]
+    },
+    {
+      "Type": "Audio",
+      "AudioClip": [
+        {
+          "Clip": "BGM_RememberingMilo.wma",
+          "Volume": 1,
+          "IsLoop": true
+        }
+      ],
+      "IsMute": false,
+      "BGM": true,
+      "isSFX": false
+    }
+  ]
+}

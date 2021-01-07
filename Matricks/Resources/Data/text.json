@@ -1,0 +1,24 @@
+{
+  "Type": "NoObject",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 780.0, 490.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "transparent",
+      "Shape": 0
+    },
+    {
+      "Type": "Text",
+      "Value": "Play to unlock Levels",
+      "Scale": 1.0,
+      "Color": [ 0.0, 0.0, 0.0 ],
+      "Offset": [ -0.1, -0.1 ]
+    }
+
+  ]
+}

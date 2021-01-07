@@ -1,0 +1,50 @@
+{
+  "Type": "Prompt_Trigger",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0
+      ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "transparent",
+      "Shape": 0
+    },
+    {
+      "Type": "Body",
+      "Vel": [
+        0.0,
+        0.0
+      ],
+      "Accel": [
+        0.0,
+        0.0
+      ],
+      "Mass": 0.0,
+      "AABB": [
+        4.0,
+        1.0
+      ],
+      "Collider": true
+    },
+    {
+      "Type":"Trigger",
+      "Parent":"NoObject"
+    },
+    {
+      "Type": "Subscription",
+      "SubscribeTo": [ "PromptTrigger" ]
+    },
+    {
+      "Type": "Audio"
+    }
+  ]
+}

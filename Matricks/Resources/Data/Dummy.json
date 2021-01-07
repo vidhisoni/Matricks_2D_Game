@@ -1,0 +1,41 @@
+{
+	"Type" : 2,
+	"Transform" : {
+		"Pos"  : [0.0, 0.0],
+		"Scale" : [1.0,1.0],
+		"Angle" : 0.0
+	},	
+	"Sprite" : {
+		"Texture" : "dummy",
+		"Shape" : 0
+	},
+  "Body": {
+    "Vel": [ 0.0, 0.0 ],
+    "Accel": [ 0.0, 0.0 ],
+    "Mass": 10.0,
+    "AABB": [ 0.1,0.1]
+  }
+}
+{
+	"Type" : "Player",
+	"Components" : [
+		{
+		"Type" : "Transform", 
+		"Pos"  : [0.0, 0.0],
+		"Scale" : [1.0,1.0],
+		"Angle" : 0.0
+		},
+		{	
+			"Type": "Sprite",
+			"Texture" : "dummy",
+			"Shape" : 0
+		},
+		{
+			 "Type":"Body",
+			 "Vel": [ 0.0, 0.0 ],
+			"Accel": [ 0.0, 0.0 ],
+			"Mass": 10.0,
+			"AABB": [ 0.1,0.1]
+		}
+	]
+}

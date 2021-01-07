@@ -1,0 +1,65 @@
+{
+  "Camera" : {
+	  "Offset" : [800.0 , 450.0],
+    "StartPos" : [-49.0,100.0],
+    "Speed" : [2.5,1.0]
+  },
+  "Objects": [
+    {
+      "File": "player.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 1000.0, 300.0, 0.2 ],
+            "Scale": [ 200.0, 200.0 ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 1000.0, 300.0, 0.2 ],
+        "Scale": [ 200.0, 200.0 ]
+      }
+    },
+    {
+      "File": "parallaxbg.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 960.0, 450.0, 0.9 ],
+            "Scale": [ 20000.0, 5000.0 ]
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [ 960.0, 450.0, 0.7 ],
+            "Scale": [ 5760.0, 1080.0 ]
+          }
+        },
+        {
+          "Index": 2,
+          "Transform": {
+            "Pos": [ 960.0, 450.0, 0.8 ],
+            "Scale": [ 5760.0, 1080.0 ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 960.0, 450.0, 0.9 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1000.0, 150.0, 0.3 ],
+        "Scale": [ 2000.0, 50.0 ]
+      },
+      "Sprite": {
+        "Tiling": [ 3, 1 ]
+      }
+    }
+  ]
+}

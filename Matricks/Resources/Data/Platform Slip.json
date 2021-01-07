@@ -1,0 +1,26 @@
+{
+  "Type": 2,
+  "Transform": {
+    "Pos": [ 0.0, 0.0 ],
+    "Scale": [ 1.0, 1.0 ],
+    "Angle": 0.0
+  },
+  "Sprite": {
+    "Texture": "ruler",
+    "Shape": 0
+  },
+  "Body": {
+    "Vel": [ 0.0, 0.0 ],
+    "Accel": [ 0.0, 0.0 ],
+    "Mass": 0.0,
+    "AABB": [ 1, 1 ],
+    "Bounce": 0.0,
+    "Friction": [ 0.1, 0.04 ]
+  },
+  "Text": {
+    "Value": "Slippery Surface",
+    "Scale": 0.5,
+    "Color": [ 1.0, 0.0, 1.0 ],
+    "Offset": [ 0.0, 0.6 ]
+  }
+}

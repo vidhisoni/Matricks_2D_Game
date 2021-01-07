@@ -1,0 +1,48 @@
+{
+  "Camera":{
+    "Light": 1.0
+  },
+  "Objects": [
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, 1620.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite": {
+        "Texture": "end2-1"
+      },
+      "Story": {
+        "Frame": 0,
+        "isSound": true
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_Beep_SynthLow.wav",
+            "Volume": 1,
+            "IsLoop": false
+          }
+        ],
+        "IsMute": false,
+        "BGM": false,
+        "isSFX" :  true
+      }
+    },
+    {
+      "File": "storysketch.json",
+      "Transform": {
+        "Pos": [ 960.0, -540.0, 0.2 ],
+        "Scale": [ 1920.0, 1080.0 ]
+      },
+      "Sprite": {
+        "Texture": "end2-2"
+      },
+      "Story": {
+        "LastFrame": true,
+        "Frame": 1,
+        "isSound": true
+      }
+    }
+  ]
+}

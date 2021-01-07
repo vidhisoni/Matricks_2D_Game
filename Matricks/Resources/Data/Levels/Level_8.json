@@ -1,0 +1,467 @@
+{
+    "Camera": {
+      "Offset": [800.0, 450.0],
+      "StartPos": [ -3400.0, -1200.0 ],
+      "Speed": [ 1.2, 3.0 ]
+    },
+  "Objects": [
+    {
+      "File": "player.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Scale": [ 200, 200 ]
+          }
+        },
+        {
+          "Index": 1,
+          "Prompt": {
+            "Messages": [
+              {
+                "CollideWith": "Box",
+                "Message": "Jump to climb up the stairs...Here you go.. "
+              }
+            ]
+          }
+        }
+      ],
+      "Transform": {
+
+        "Pos": [ 350.0343, 1200.99, 0.2 ],
+        "Scale": [ 200, 200 ],
+        "Angle": 0
+      },
+      "Sprite": {
+
+        "Texture": "playeridleright",
+        "Shape": 0
+      },
+      "PlayerState": { "Tools": [ true, false ] },
+      "Body": { "Jumps": 2 }
+    },
+    {
+      "File": "parallaxbg.json",
+      "Children": [
+
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 200, 50, 0.9 ],
+            "Scale": [ 2000, 1200 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "sky",
+            "Shape": 0
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [ 1200, 1000, 0.7 ],
+            "Scale": [ 4000, 1100 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "planets",
+            "Shape": 0,
+            "Tiling": [ 2, 2 ],
+            "Bloom": true
+          }
+        },
+        {
+          "Index": 2,
+          "Transform": {
+            "Pos": [ 1060, 900, 0.8 ],
+            "Scale": [ 4000, 1340 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "stars",
+            "Shape": 0,
+            "Tiling": [ 2, 2 ],
+            "Bloom": true
+          }
+        }
+      ],
+      "Transform": {
+
+        "Pos": [ 960, 450 ],
+        "Scale": [ 1920, 1080 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+
+        "Pos": [ 555, 795, 0.4 ],
+        "Scale": [ 1400, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [ 2, 1 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+
+        "Pos": [ 2300, 500, 0.4 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [ 1, 1 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+
+        "Pos": [ 3050, 765, 0.4 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [ 1, 1 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 3870, 1080, 0.4 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [ 1, 1 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+
+        "Pos": [ 2700, 150, 0.4 ],
+        "Scale": [ 2800, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [ 4, 1 ]
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ 1700, 225, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ 1610, 325, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ 1520, 425, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ 1435, 525, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ 1345, 625, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "stairs.json",
+      "Transform": {
+
+        "Pos": [ 1260, 725, 0.5 ],
+        "Scale": [ 180, 100 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "PromptTrigger.json",
+      "Transform": {
+        "Pos": [ 1700, 225, 0.5 ],
+        "Scale": [ 180, 100 ]
+      },
+      "Trigger": {
+        "ID": 1,
+        "Parent": "Box"
+      },
+      "Audio": {
+        "AudioClip": [
+          {
+            "Clip": "SFX_BeeBee_L8.wav",
+            "Volume": 2,
+            "IsLoop": false
+          }
+        ],
+        "IsMute": false,
+        "BGM": false,
+        "isSFX": false,
+        "isPromptAudio": true
+      }
+    },
+    {
+      "File": "StartDoor.json",
+      "Transform": {
+        "Pos": [ 0, 970, 0.4 ],
+        "Scale": [ 150, 300 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "FinalDoor.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [
+              200,
+              150,
+              0.1
+            ],
+            "Scale": [
+              100,
+              150
+            ]
+          },
+          "Text": {
+            "Value": "5"
+          }
+
+        }
+      ],
+      "Transform": {
+
+        "Pos": [ 4045, 1255 ],
+        "Scale": [ 150, 300 ],
+        "Angle": 0
+      },
+      "Text": {
+
+        "Value": "5"
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          0,
+          957,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "Portal.json",
+      "Transform": {
+        "Pos": [
+          4045,
+          1242,
+          0.5
+        ],
+        "Scale": [
+          150,
+          250
+        ]
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          3850,
+          1300,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          165,
+          1020,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          1840,
+          375,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "lamppost.json",
+      "Transform": {
+        "Pos": [
+          4040,
+          375,
+          0.4
+        ],
+        "Scale": [
+          90,
+          400
+        ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          1210,
+          870,
+          0.4
+        ]
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          2980,
+          225,
+          0.4
+        ]
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          2610,
+          575,
+          0.4
+        ]
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "shortlamppost.json",
+      "Transform": {
+        "Pos": [
+          3350,
+          840,
+          0.4
+        ]
+      },
+      "Body": {
+        "Collider": true
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 845.0, 885.0, 0.3 ],
+        "Scale": [ 75.0, 75.0 ]
+      },
+      "Text": {
+        "Value": "2"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 2350.0, 610.0, 0.3 ],
+        "Scale": [ 75.0, 75.0 ]
+      },
+      "Text": {
+        "Value": "4"
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 3000.0, 870.0, 0.3 ],
+        "Scale": [ 75.0, 75.0 ]
+      },
+      "Text": {
+        "Value": "5"
+      }
+    }
+  ]
+}

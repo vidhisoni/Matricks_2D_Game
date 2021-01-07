@@ -1,0 +1,23 @@
+{
+  "Type": "Background",
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "levelsbg",
+      "Shape": 0
+    },
+    {
+      "Type": "Levels"
+    },
+    {
+      "Type": "Subscription",
+      "SubscribeTo": [ "ChangeLevel" ]
+    }
+  ]
+}

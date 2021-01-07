@@ -1,0 +1,396 @@
+{
+  
+  "Camera": {
+    "Offset": [ 800, 450 ],
+    "StartPos": [ -1040, -1669 ],
+    "Speed": [ 2.5, 1.0 ]
+  },
+  "Objects": [
+    {
+      "File": "player.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 410, 419.99, 0.2 ],
+            "Scale": [ 200, 200 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "cloud",
+            "Shape": 0,
+            "Bloom": true
+          },
+          "Text": {
+            "Value": "",
+            "Scale": 1,
+            "Color": [ 0, 0, 0 ],
+            "Offset": [ -0.1, -0.1 ]
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [ 310, 459.99, 0 ],
+            "Scale": [ 0, 0 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "Bee",
+            "Shape": 0
+          },
+          "Text": {
+            "Value": "",
+            "Scale": 0.5,
+            "Color": [ 1, 1, 1 ],
+            "Offset": [ 0.5, 0.5 ]
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 410, 259.99, 0.2 ],
+        "Scale": [ 200, 200 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "playeridleright",
+        "Shape": 0
+      },
+      "PlayerState": { "Tools": [ false, false ] },
+      "Body": { "Jumps": 2 }
+    },
+    {
+      "File": "parallaxbg.json",
+      "Children": [
+        {
+          "Index": 0,
+          "Transform": {
+            "Pos": [ 570.001, 259.991, 0.9 ],
+            "Scale": [ 20000, 5000 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "sky",
+            "Shape": 0
+          }
+        },
+        {
+          "Index": 1,
+          "Transform": {
+            "Pos": [ 903.001, 280.192, 0.7 ],
+            "Scale": [ 5760, 1080 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "planets",
+            "Shape": 0,
+            "Tiling": [ 3, 1 ],
+            "Bloom": true
+          }
+        },
+        {
+          "Index": 2,
+          "Transform": {
+            "Pos": [ 845.99, 110.384, 0.8 ],
+            "Scale": [ 5760, 1080 ],
+            "Angle": 0
+          },
+          "Sprite": {
+            "Texture": "stars",
+            "Shape": 0,
+            "Tiling": [ 3, 1 ],
+            "Bloom": true
+          }
+        }
+      ],
+      "Transform": {
+        "Pos": [ 960, 450, 0 ],
+        "Scale": [ 1920, 1080 ],
+        "Angle": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2500, 150, 0.3 ],
+        "Scale": [ 4900, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0,
+        "Tiling": [ 7, 1 ]
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1170, 750, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1930, 450, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 1815, 985, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2320, 1235, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2895, 1075, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 3630, 1375, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2880, 1600, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "platform.json",
+      "Transform": {
+        "Pos": [ 2160, 1845, 0.3 ],
+        "Scale": [ 700, 50 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "ruler",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 2100, 509.99, 0.4 ],
+        "Scale": [ 70, 70 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "box",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": "3",
+        "Scale": 1,
+        "Color": [ 1, 1, 1 ],
+        "Offset": [ -0.1, -0.1 ]
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 3370, 209.99, 0.4 ],
+        "Scale": [ 70, 70 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "box",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": "5",
+        "Scale": 1,
+        "Color": [ 1, 1, 1 ],
+        "Offset": [ -0.1, -0.1 ]
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 1555, 209.99, 0.4 ],
+        "Scale": [ 70, 70 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "box",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": "2",
+        "Scale": 1,
+        "Color": [ 1, 1, 1 ],
+        "Offset": [ -0.1, -0.1 ]
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 1705, 1044.99, 0.4 ],
+        "Scale": [ 70, 70 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "box",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": "4",
+        "Scale": 1,
+        "Color": [ 1, 1, 1 ],
+        "Offset": [ -0.1, -0.1 ]
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 2350, 1294.99, 0.4 ],
+        "Scale": [ 70, 70 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "box",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": "7",
+        "Scale": 1,
+        "Color": [ 1, 1, 1 ],
+        "Offset": [ -0.1, -0.1 ]
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 3885, 1434.99, 0.4 ],
+        "Scale": [ 70, 70 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "box",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": "1",
+        "Scale": 1,
+        "Color": [ 1, 1, 1 ],
+        "Offset": [ -0.1, -0.1 ]
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 2815, 1659.99, 0.4 ],
+        "Scale": [ 70, 70 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "box",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": "5",
+        "Scale": 1,
+        "Color": [ 1, 1, 1 ],
+        "Offset": [ -0.1, -0.1 ]
+      }
+    },
+    {
+      "File": "StartDoor.json",
+      "Transform": {
+        "Pos": [ 185, 320, 0.4 ],
+        "Scale": [ 150, 300 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "finaldoor",
+        "Shape": 0
+      }
+    },
+    {
+      "File": "FinalDoor.json",
+      "Transform": {
+        "Pos": [ 1920, 2020, 0 ],
+        "Scale": [ 150, 300 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "finaldoor",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": "13",
+        "Scale": 1,
+        "Color": [ 1, 1, 0 ],
+        "Offset": [ -0.1, -0.1 ]
+      }
+    },
+    {
+      "File": "Box.json",
+      "Transform": {
+        "Pos": [ 1000, 212.49, 0 ],
+        "Scale": [ 75, 75 ],
+        "Angle": 0
+      },
+      "Sprite": {
+        "Texture": "box",
+        "Shape": 0
+      },
+      "Text": {
+        "Value": "0",
+        "Scale": 1,
+        "Color": [ 1, 1, 1 ],
+        "Offset": [ -0.1, -0.1 ]
+      }
+    }
+  ]
+}

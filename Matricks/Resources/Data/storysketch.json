@@ -1,0 +1,28 @@
+{
+    "Type": "NoObject",
+    "Components" : [
+    {
+      "Type" : "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "transparent",
+      "Shape": 0,
+      "HUD" : true
+    },
+    {
+        "Type": "Story",
+        "Time": 1.65
+    },
+    {
+      "Type": "Subscription",
+      "SubscribeTo": [ "NextFrame" ]
+    },
+    {
+      "Type": "Audio"
+    }
+  ]
+}

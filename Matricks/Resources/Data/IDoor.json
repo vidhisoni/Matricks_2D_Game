@@ -1,0 +1,51 @@
+{
+  "Type": "IDoor",
+  "Children": [
+    {
+      "Type": "InvisiPlatform",
+      "Components" : [
+        {
+          "Type": "Transform",
+          "Pos": [ 0.0, 0.0, 0.3 ],
+          "Scale": [ 1.0, 1.0 ],
+          "Angle": 0.0
+        },
+        {
+          "Type": "Sprite",
+          "Texture": "invisibleplatform",
+          "Shape": 0,
+          "Tiling": [3,1]
+        }
+      ]
+    }
+  ],
+  "Components": [
+    {
+      "Type": "Transform",
+      "Pos": [ 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0 ],
+      "Angle": 0.0
+    },
+    {
+      "Type": "Sprite",
+      "Texture": "system",
+      "Shape": 0
+    },
+    {
+      "Type": "Body",
+      "Vel": [ 0.0, 0.0 ],
+      "Accel": [ 0.0, 0.0 ],
+      "Mass": 0.0,
+      "AABB": [ 1, 1 ],
+      "Bounce": 0.1,
+      "Friction": [ 0.0, 0.0 ]
+    },
+    {
+      "Type": "Text",
+      "Value" : "",
+      "Scale" : 1.5,
+      "Color" : [1.0,0.0,0.0],
+      "Offset" : [-0.1,0.1]
+    }
+  ]
+}
